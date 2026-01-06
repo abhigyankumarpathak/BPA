@@ -1,0 +1,378 @@
+2025-11-20 17:25:20 - INFO - GameEngine initialized
+2025-11-20 17:25:20 - DEBUG - Initial state - Health: 100%, Inventory: 0
+2025-11-20 17:25:20 - INFO - Game data loaded: 4 eras, 4 puzzles
+2025-11-20 17:25:20 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-20 17:25:20 - INFO - Game initialized successfully
+2025-11-20 17:25:20 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-20 17:25:20 - INFO - Save data available: False
+2025-11-20 17:25:20 - INFO - ======================================================================
+2025-11-20 17:25:20 - INFO - ChronoQuest: Fractures in Time - Application Started
+2025-11-20 17:25:20 - INFO - Start Time: 2025-11-20 17:25:20.536451
+2025-11-20 17:25:20 - INFO - ======================================================================
+2025-11-20 17:25:20 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-20 17:25:26 - INFO - User selected: New Game
+2025-11-20 17:25:26 - INFO - Starting new game
+2025-11-20 17:25:26 - INFO - New game started - All values reset
+2025-11-20 17:25:26 - INFO - Starting state: Health=100%, Inventory empty, No puzzles solved
+2025-11-20 17:25:33 - INFO - Era selected: egypt
+2025-11-20 17:25:33 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-20 17:25:33 - DEBUG - NPC dialog loaded: Pharaoh Khufu
+2025-11-20 17:25:33 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:25:33 - DEBUG - Game state retrieved: 0% complete, Health: 100%
+2025-11-20 17:25:33 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:25:33 - DEBUG - Game state retrieved: 0% complete, Health: 100%
+2025-11-20 17:25:40 - INFO - Puzzle attempted: hieroglyphic_sequence, answer: 1
+2025-11-20 17:25:40 - DEBUG - Puzzle attempt: hieroglyphic_sequence, Answer: 1/4
+2025-11-20 17:25:40 - INFO - ✗ Puzzle failed: hieroglyphic_sequence - Health reduced to 90%
+2025-11-20 17:25:40 - INFO - Puzzle answered incorrectly: hieroglyphic_sequence
+2025-11-20 17:25:50 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:25:50 - DEBUG - Game state retrieved: 0% complete, Health: 90%
+2025-11-20 17:25:50 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:25:50 - DEBUG - Game state retrieved: 0% complete, Health: 90%
+2025-11-20 17:25:53 - INFO - Puzzle attempted: hieroglyphic_sequence, answer: 3
+2025-11-20 17:25:53 - DEBUG - Puzzle attempt: hieroglyphic_sequence, Answer: 3/4
+2025-11-20 17:25:53 - INFO - ✓ Puzzle solved: hieroglyphic_sequence - Reward: Scarab Amulet
+2025-11-20 17:25:53 - INFO - Health increased to 100% - Inventory: 1/4
+2025-11-20 17:25:53 - INFO - Puzzle solved correctly: hieroglyphic_sequence
+2025-11-20 17:25:53 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:25:56 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:25:56 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:25:56 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:25:56 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:25:59 - INFO - User navigating to next era
+2025-11-20 17:25:59 - INFO - Era selected: medieval (Medieval Europe)
+2025-11-20 17:25:59 - DEBUG - NPC dialog loaded: Knight Commander
+2025-11-20 17:25:59 - INFO - Navigation: Next era selected
+2025-11-20 17:25:59 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:25:59 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:25:59 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:25:59 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:26:15 - INFO - Puzzle attempted: code_lock, answer: 1
+2025-11-20 17:26:15 - DEBUG - Puzzle attempt: code_lock, Answer: 1/4
+2025-11-20 17:26:15 - INFO - ✗ Puzzle failed: code_lock - Health reduced to 90%
+2025-11-20 17:26:15 - INFO - Puzzle answered incorrectly: code_lock
+2025-11-20 17:27:30 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:27:30 - DEBUG - Game state retrieved: 25% complete, Health: 90%
+2025-11-20 17:27:30 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:27:30 - DEBUG - Game state retrieved: 25% complete, Health: 90%
+2025-11-20 17:27:36 - INFO - User interrupted with Ctrl+C
+2025-11-20 17:27:36 - INFO - ChronoQuest application closed
+2025-11-20 17:27:36 - INFO - ======================================================================
+
+2025-11-20 17:27:40 - INFO - GameEngine initialized
+2025-11-20 17:27:40 - DEBUG - Initial state - Health: 100%, Inventory: 0
+2025-11-20 17:27:40 - INFO - Game data loaded: 4 eras, 4 puzzles
+2025-11-20 17:27:40 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-20 17:27:40 - INFO - Game initialized successfully
+2025-11-20 17:27:40 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-20 17:27:40 - INFO - Save data available: False
+2025-11-20 17:27:40 - INFO - ======================================================================
+2025-11-20 17:27:40 - INFO - ChronoQuest: Fractures in Time - Application Started
+2025-11-20 17:27:40 - INFO - Start Time: 2025-11-20 17:27:40.822194
+2025-11-20 17:27:40 - INFO - ======================================================================
+2025-11-20 17:27:40 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-20 17:27:42 - INFO - User selected: New Game
+2025-11-20 17:27:42 - INFO - Starting new game
+2025-11-20 17:27:42 - INFO - New game started - All values reset
+2025-11-20 17:27:42 - INFO - Starting state: Health=100%, Inventory empty, No puzzles solved
+2025-11-20 17:27:47 - INFO - Era selected: egypt
+2025-11-20 17:27:47 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-20 17:27:47 - DEBUG - NPC dialog loaded: Pharaoh Khufu
+2025-11-20 17:27:47 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:27:47 - DEBUG - Game state retrieved: 0% complete, Health: 100%
+2025-11-20 17:27:47 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:27:47 - DEBUG - Game state retrieved: 0% complete, Health: 100%
+2025-11-20 17:27:50 - INFO - Puzzle attempted: hieroglyphic_sequence, answer: 3
+2025-11-20 17:27:50 - DEBUG - Puzzle attempt: hieroglyphic_sequence, Answer: 3/4
+2025-11-20 17:27:50 - INFO - ✓ Puzzle solved: hieroglyphic_sequence - Reward: Scarab Amulet
+2025-11-20 17:27:50 - INFO - Health increased to 100% - Inventory: 1/4
+2025-11-20 17:27:50 - INFO - Puzzle solved correctly: hieroglyphic_sequence
+2025-11-20 17:27:50 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:27:56 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:27:56 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:27:56 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:27:56 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:27:58 - INFO - User navigating to next era
+2025-11-20 17:27:58 - INFO - Era selected: medieval (Medieval Europe)
+2025-11-20 17:27:58 - DEBUG - NPC dialog loaded: Knight Commander
+2025-11-20 17:27:58 - INFO - Navigation: Next era selected
+2025-11-20 17:27:58 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:27:58 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:27:58 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:27:58 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:28:01 - INFO - Puzzle attempted: code_lock, answer: 3
+2025-11-20 17:28:01 - DEBUG - Puzzle attempt: code_lock, Answer: 3/4
+2025-11-20 17:28:01 - INFO - ✓ Puzzle solved: code_lock - Reward: Castle Key
+2025-11-20 17:28:01 - INFO - Health increased to 100% - Inventory: 2/4
+2025-11-20 17:28:01 - INFO - Puzzle solved correctly: code_lock
+2025-11-20 17:28:01 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:28:06 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:28:06 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:28:06 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:28:06 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:28:08 - INFO - User navigating to next era
+2025-11-20 17:28:08 - INFO - Era selected: renaissance (Renaissance Italy)
+2025-11-20 17:28:08 - DEBUG - NPC dialog loaded: Leonardo da Vinci
+2025-11-20 17:28:08 - INFO - Navigation: Next era selected
+2025-11-20 17:28:08 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:28:08 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:28:08 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:28:08 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:28:15 - INFO - Puzzle attempted: geometric_pattern, answer: 3
+2025-11-20 17:28:15 - DEBUG - Puzzle attempt: geometric_pattern, Answer: 3/4
+2025-11-20 17:28:15 - INFO - ✓ Puzzle solved: geometric_pattern - Reward: Golden Compass
+2025-11-20 17:28:15 - INFO - Health increased to 100% - Inventory: 3/4
+2025-11-20 17:28:15 - INFO - Puzzle solved correctly: geometric_pattern
+2025-11-20 17:28:15 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:28:16 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:28:16 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:28:16 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:28:16 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:28:18 - INFO - User navigating to next era
+2025-11-20 17:28:18 - INFO - Era selected: spaceage (Space Age)
+2025-11-20 17:28:18 - DEBUG - NPC dialog loaded: Mission Control
+2025-11-20 17:28:18 - INFO - Navigation: Next era selected
+2025-11-20 17:28:18 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:28:18 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:28:18 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:28:18 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:28:25 - INFO - Puzzle attempted: circuit_board, answer: 1
+2025-11-20 17:28:25 - DEBUG - Puzzle attempt: circuit_board, Answer: 1/4
+2025-11-20 17:28:25 - INFO - ✓ Puzzle solved: circuit_board - Reward: Data Core
+2025-11-20 17:28:25 - INFO - Health increased to 100% - Inventory: 4/4
+2025-11-20 17:28:25 - INFO - Puzzle solved correctly: circuit_board
+2025-11-20 17:28:25 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:28:27 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:28:27 - INFO - Mission completed: 100% - Duration: 0m 46s
+2025-11-20 17:28:29 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:28:29 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:28:29 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:28:29 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:28:35 - INFO - User returning to menu from game
+2025-11-20 17:28:40 - INFO - Era selected: spaceage
+2025-11-20 17:28:40 - INFO - Era selected: spaceage (Space Age)
+2025-11-20 17:28:40 - DEBUG - NPC dialog loaded: Mission Control
+2025-11-20 17:28:40 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:28:40 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:28:40 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:28:40 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:28:51 - INFO - User completed mission
+2025-11-20 17:28:51 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:28:51 - INFO - Mission completed: 100% - Duration: 1m 11s
+2025-11-20 17:29:00 - INFO - User returned to menu from era selection
+2025-11-20 17:29:00 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-20 17:29:06 - INFO - User selected: Exit
+2025-11-20 17:29:06 - INFO - Game session ended - Duration: 1m 25s
+2025-11-20 17:29:06 - INFO - ChronoQuest application closed
+2025-11-20 17:29:06 - INFO - ======================================================================
+
+2025-11-20 17:29:51 - INFO - GameEngine initialized
+2025-11-20 17:29:51 - DEBUG - Initial state - Health: 100%, Inventory: 0
+2025-11-20 17:29:51 - INFO - Game data loaded: 4 eras, 4 puzzles
+2025-11-20 17:29:51 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-20 17:29:51 - INFO - Game initialized successfully
+2025-11-20 17:29:51 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-20 17:29:51 - INFO - Save data available: False
+2025-11-20 17:29:51 - INFO - ======================================================================
+2025-11-20 17:29:51 - INFO - ChronoQuest: Fractures in Time - Application Started
+2025-11-20 17:29:51 - INFO - Start Time: 2025-11-20 17:29:51.551817
+2025-11-20 17:29:51 - INFO - ======================================================================
+2025-11-20 17:29:51 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-20 17:29:55 - INFO - User selected: New Game
+2025-11-20 17:29:55 - INFO - Starting new game
+2025-11-20 17:29:55 - INFO - New game started - All values reset
+2025-11-20 17:29:55 - INFO - Starting state: Health=100%, Inventory empty, No puzzles solved
+2025-11-20 17:29:59 - INFO - Era selected: egypt
+2025-11-20 17:29:59 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-20 17:29:59 - DEBUG - NPC dialog loaded: Pharaoh Khufu
+2025-11-20 17:29:59 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:29:59 - DEBUG - Game state retrieved: 0% complete, Health: 100%
+2025-11-20 17:29:59 - DEBUG - Completion calculated: 0/4 eras = 0%
+2025-11-20 17:29:59 - DEBUG - Game state retrieved: 0% complete, Health: 100%
+2025-11-20 17:30:02 - INFO - Puzzle attempted: hieroglyphic_sequence, answer: 3
+2025-11-20 17:30:02 - DEBUG - Puzzle attempt: hieroglyphic_sequence, Answer: 3/4
+2025-11-20 17:30:02 - INFO - ✓ Puzzle solved: hieroglyphic_sequence - Reward: Scarab Amulet
+2025-11-20 17:30:02 - INFO - Health increased to 100% - Inventory: 1/4
+2025-11-20 17:30:02 - INFO - Puzzle solved correctly: hieroglyphic_sequence
+2025-11-20 17:30:02 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:30:03 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:30:03 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:30:03 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:30:03 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:30:05 - INFO - User navigating to next era
+2025-11-20 17:30:05 - INFO - Era selected: medieval (Medieval Europe)
+2025-11-20 17:30:05 - DEBUG - NPC dialog loaded: Knight Commander
+2025-11-20 17:30:05 - INFO - Navigation: Next era selected
+2025-11-20 17:30:05 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:30:05 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:30:05 - DEBUG - Completion calculated: 1/4 eras = 25%
+2025-11-20 17:30:05 - DEBUG - Game state retrieved: 25% complete, Health: 100%
+2025-11-20 17:30:09 - INFO - Puzzle attempted: code_lock, answer: 3
+2025-11-20 17:30:09 - DEBUG - Puzzle attempt: code_lock, Answer: 3/4
+2025-11-20 17:30:09 - INFO - ✓ Puzzle solved: code_lock - Reward: Castle Key
+2025-11-20 17:30:09 - INFO - Health increased to 100% - Inventory: 2/4
+2025-11-20 17:30:09 - INFO - Puzzle solved correctly: code_lock
+2025-11-20 17:30:09 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:30:10 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:30:10 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:30:10 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:30:10 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:30:18 - INFO - User navigating to next era
+2025-11-20 17:30:18 - INFO - Era selected: renaissance (Renaissance Italy)
+2025-11-20 17:30:18 - DEBUG - NPC dialog loaded: Leonardo da Vinci
+2025-11-20 17:30:18 - INFO - Navigation: Next era selected
+2025-11-20 17:30:18 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:30:18 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:30:18 - DEBUG - Completion calculated: 2/4 eras = 50%
+2025-11-20 17:30:18 - DEBUG - Game state retrieved: 50% complete, Health: 100%
+2025-11-20 17:30:21 - INFO - Puzzle attempted: geometric_pattern, answer: 3
+2025-11-20 17:30:21 - DEBUG - Puzzle attempt: geometric_pattern, Answer: 3/4
+2025-11-20 17:30:21 - INFO - ✓ Puzzle solved: geometric_pattern - Reward: Golden Compass
+2025-11-20 17:30:21 - INFO - Health increased to 100% - Inventory: 3/4
+2025-11-20 17:30:21 - INFO - Puzzle solved correctly: geometric_pattern
+2025-11-20 17:30:21 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:30:22 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:30:22 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:30:22 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:30:22 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:30:35 - INFO - User navigating to next era
+2025-11-20 17:30:35 - INFO - Era selected: spaceage (Space Age)
+2025-11-20 17:30:35 - DEBUG - NPC dialog loaded: Mission Control
+2025-11-20 17:30:35 - INFO - Navigation: Next era selected
+2025-11-20 17:30:35 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:30:35 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:30:35 - DEBUG - Completion calculated: 3/4 eras = 75%
+2025-11-20 17:30:35 - DEBUG - Game state retrieved: 75% complete, Health: 100%
+2025-11-20 17:30:37 - INFO - Puzzle attempted: circuit_board, answer: 1
+2025-11-20 17:30:37 - DEBUG - Puzzle attempt: circuit_board, Answer: 1/4
+2025-11-20 17:30:37 - INFO - ✓ Puzzle solved: circuit_board - Reward: Data Core
+2025-11-20 17:30:37 - INFO - Health increased to 100% - Inventory: 4/4
+2025-11-20 17:30:37 - INFO - Puzzle solved correctly: circuit_board
+2025-11-20 17:30:37 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:30:41 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:30:41 - INFO - Mission completed: 100% - Duration: 0m 49s
+2025-11-20 17:30:49 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:30:49 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:30:49 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:30:49 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:30:50 - INFO - User saving game
+2025-11-20 17:30:50 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:30:50 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-20 17:30:50 - DEBUG - Save data: {'timestamp': '2025-11-20T17:30:50.712986', 'version': '1.0', 'health': 100, 'inventory': ['Scarab Amulet', 'Castle Key', 'Golden Compass', 'Data Core'], 'puzzles_solved': {'hieroglyphic_sequence': True, 'code_lock': True, 'geometric_pattern': True, 'circuit_board': True}, 'current_era_id': 'spaceage', 'sound_enabled': True, 'completion': 100}
+2025-11-20 17:30:50 - INFO - Game saved successfully
+2025-11-20 17:30:52 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:30:52 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:30:52 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:30:52 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:30:55 - INFO - User returning to menu from game
+2025-11-20 17:30:59 - INFO - User returned to menu from era selection
+2025-11-20 17:30:59 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-20 17:31:01 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-20 17:31:01 - INFO - User selected: Load Game
+2025-11-20 17:31:01 - INFO - Era selected: spaceage (Space Age)
+2025-11-20 17:31:01 - DEBUG - NPC dialog loaded: Mission Control
+2025-11-20 17:31:01 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-20 17:31:01 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:31:01 - DEBUG - Restored state: Health=100%, Inventory=4, Completion=100%
+2025-11-20 17:31:01 - INFO - Game loaded successfully
+2025-11-20 17:31:03 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:31:03 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:31:03 - DEBUG - Completion calculated: 4/4 eras = 100%
+2025-11-20 17:31:03 - DEBUG - Game state retrieved: 100% complete, Health: 100%
+2025-11-20 17:31:08 - INFO - User returning to menu from game
+2025-11-20 17:31:08 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-20 19:29:54 - INFO - User interrupted with Ctrl+C
+2025-11-20 19:29:54 - INFO - ChronoQuest application closed
+2025-11-20 19:29:54 - INFO - ======================================================================
+
+2025-11-21 16:03:17,007 - INFO - Flask server starting
+2025-11-21 16:03:17,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 16:03:17,020 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:03:17,025 - INFO -  * Restarting with stat
+2025-11-21 16:03:17,189 - INFO - Flask server starting
+2025-11-21 16:03:17,193 - WARNING -  * Debugger is active!
+2025-11-21 16:03:17,213 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:05:33,254 - INFO - Flask server starting
+2025-11-21 16:05:33,265 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 16:05:33,265 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:05:33,271 - INFO -  * Restarting with stat
+2025-11-21 16:05:33,432 - INFO - Flask server starting
+2025-11-21 16:05:33,436 - WARNING -  * Debugger is active!
+2025-11-21 16:05:33,455 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:05:44,877 - INFO -  * Detected change in '/Users/amitpathak/Documents/python/bpa/BPA SOFTWARE ENGINEERING/app.py', reloading
+2025-11-21 16:05:44,906 - INFO -  * Restarting with stat
+2025-11-21 16:05:45,124 - WARNING -  * Debugger is active!
+2025-11-21 16:05:45,141 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:07:05,867 - INFO - Flask server starting
+2025-11-21 16:07:05,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 16:07:05,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:07:05,882 - INFO -  * Restarting with stat
+2025-11-21 16:07:06,041 - INFO - Flask server starting
+2025-11-21 16:07:06,044 - WARNING -  * Debugger is active!
+2025-11-21 16:07:06,064 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:10:08,850 - INFO - Flask server starting
+2025-11-21 16:10:08,862 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 16:10:08,862 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:10:08,867 - INFO -  * Restarting with stat
+2025-11-21 16:10:09,024 - INFO - Flask server starting
+2025-11-21 16:10:09,028 - WARNING -  * Debugger is active!
+2025-11-21 16:10:09,046 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:12:09,723 - INFO - Flask server starting
+2025-11-21 16:12:09,732 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 16:12:09,732 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:12:09,737 - INFO -  * Restarting with stat
+2025-11-21 16:12:09,929 - INFO - Flask server starting
+2025-11-21 16:12:09,933 - WARNING -  * Debugger is active!
+2025-11-21 16:12:09,953 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:15:51,403 - INFO - Flask server starting
+2025-11-21 16:15:51,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-21 16:15:51,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:15:51,420 - INFO -  * Restarting with stat
+2025-11-21 16:15:51,585 - INFO - Flask server starting
+2025-11-21 16:15:51,589 - WARNING -  * Debugger is active!
+2025-11-21 16:15:51,609 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:17:15,517 - INFO -  * Detected change in '/Users/amitpathak/Documents/python/bpa/BPA SOFTWARE ENGINEERING/app1.py', reloading
+2025-11-21 16:17:15,554 - INFO -  * Restarting with stat
+2025-11-21 16:17:15,757 - INFO - Flask server starting
+2025-11-21 16:17:15,763 - WARNING -  * Debugger is active!
+2025-11-21 16:17:15,785 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:17:30,217 - INFO - 127.0.0.1 - - [21/Nov/2025 16:17:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-21 16:17:30,253 - INFO - 127.0.0.1 - - [21/Nov/2025 16:17:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-21 16:17:30,268 - INFO - 127.0.0.1 - - [21/Nov/2025 16:17:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-21 16:17:30,317 - INFO - 127.0.0.1 - - [21/Nov/2025 16:17:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-21 16:17:30,468 - INFO - 127.0.0.1 - - [21/Nov/2025 16:17:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-21 16:21:22,314 - INFO -  * Detected change in '/Users/amitpathak/Documents/python/bpa/BPA SOFTWARE ENGINEERING/app1.py', reloading
+2025-11-21 16:21:22,355 - INFO -  * Restarting with stat
+2025-11-21 16:21:22,588 - INFO - Flask server starting
+2025-11-21 16:21:22,595 - WARNING -  * Debugger is active!
+2025-11-21 16:21:22,617 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:26:49,826 - INFO - Flask server starting
+2025-11-21 16:26:49,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-21 16:26:49,837 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:26:49,843 - INFO -  * Restarting with stat
+2025-11-21 16:26:50,016 - INFO - Flask server starting
+2025-11-21 16:26:50,020 - WARNING -  * Debugger is active!
+2025-11-21 16:26:50,042 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:27:32,735 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-21 16:27:32,735 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:27:32,740 - INFO -  * Restarting with stat
+2025-11-21 16:27:32,964 - WARNING -  * Debugger is active!
+2025-11-21 16:27:32,986 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:27:46,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-21 16:27:46,408 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:27:46,413 - INFO -  * Restarting with stat
+2025-11-21 16:27:46,583 - WARNING -  * Debugger is active!
+2025-11-21 16:27:46,601 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:27:48,563 - INFO - 127.0.0.1 - - [21/Nov/2025 16:27:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-21 16:27:48,695 - INFO - 127.0.0.1 - - [21/Nov/2025 16:27:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-21 16:27:48,696 - INFO - 127.0.0.1 - - [21/Nov/2025 16:27:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-21 16:27:48,716 - INFO - 127.0.0.1 - - [21/Nov/2025 16:27:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

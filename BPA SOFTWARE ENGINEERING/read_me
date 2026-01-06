@@ -1,0 +1,30 @@
+# ChronoQuest: Fractures in Time - Technical Documentation
+
+## Project Overview
+
+ChronoQuest is a time-travel puzzle adventure game developed for the BPA (Business 
+Professionals of America) Software Engineering Team (Vo3) competition. Built entirely 
+in Python with zero external dependencies, the game demonstrates professional software 
+engineering practices including OOP, error handling, persistence, and comprehensive 
+documentation.
+
+## Quick Start
+
+### Installation
+```bash
+python main.py       # Windows
+python3 main.py      # macOS/Linux
+```
+
+### Game Features
+- 4 Unique historical eras
+- 4 Interactive puzzles
+- Save/Load functionality
+- Health system
+- Inventory management
+- NPC interaction
+- Timeline tracking
+
+## Technical Architecture
+
+### Class Hierarchy

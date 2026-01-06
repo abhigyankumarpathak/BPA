@@ -1,0 +1,653 @@
+2025-11-21 15:52:31,342 - INFO - Flask server starting
+2025-11-21 15:52:31,383 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 15:52:31,383 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 15:52:31,383 - INFO -  * Restarting with stat
+2025-11-21 15:52:31,556 - INFO - Flask server starting
+2025-11-21 15:52:31,583 - WARNING -  * Debugger is active!
+2025-11-21 15:52:31,598 - INFO -  * Debugger PIN: 104-071-593
+2025-11-21 15:52:48,275 - INFO - Flask server starting
+2025-11-21 15:52:48,312 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 15:52:48,312 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 15:52:48,312 - INFO -  * Restarting with stat
+2025-11-21 15:52:48,480 - INFO - Flask server starting
+2025-11-21 15:52:48,505 - WARNING -  * Debugger is active!
+2025-11-21 15:52:48,520 - INFO -  * Debugger PIN: 104-071-593
+2025-11-21 15:55:00,046 - INFO -  * Detected change in '/Users/amitpathak/Documents/python/bpa/BPA SOFTWARE ENGINEERING/ui.py', reloading
+2025-11-21 15:55:00,114 - INFO -  * Restarting with stat
+2025-11-21 15:55:00,357 - INFO - Flask server starting
+2025-11-21 15:55:00,385 - WARNING -  * Debugger is active!
+2025-11-21 15:55:00,400 - INFO -  * Debugger PIN: 104-071-593
+2025-11-21 16:07:57,333 - INFO - Flask server starting
+2025-11-21 16:07:57,343 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 16:07:57,343 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:07:57,348 - INFO -  * Restarting with stat
+2025-11-21 16:07:57,513 - INFO - Flask server starting
+2025-11-21 16:07:57,517 - WARNING -  * Debugger is active!
+2025-11-21 16:07:57,535 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:31:01,614 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-21 16:31:01,614 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:31:01,620 - INFO -  * Restarting with stat
+2025-11-21 16:31:01,789 - WARNING -  * Debugger is active!
+2025-11-21 16:31:01,810 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 16:31:03,445 - INFO - New session: 6a833cc522e98f25d92286d14c795cbc
+2025-11-21 16:31:03,481 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:03] "GET / HTTP/1.1" 200 -
+2025-11-21 16:31:03,610 - INFO - GameEngine v2.0 initialized
+2025-11-21 16:31:03,612 - INFO - Game data loaded: 4 eras, 12 puzzles
+2025-11-21 16:31:03,612 - INFO - New game engine for session: 6a833cc522e98f25d92286d14c795cbc
+2025-11-21 16:31:03,615 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:03] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 16:31:03,873 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 16:31:03,873 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 16:31:03,876 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:03] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 16:31:03,908 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:03] "GET /api/game/state HTTP/1.1" 200 -
+2025-11-21 16:31:08,998 - INFO - New game started
+2025-11-21 16:31:09,001 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:09] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 16:31:09,007 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:09] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 16:31:10,544 - INFO - Era selected: egypt
+2025-11-21 16:31:10,547 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:10] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 16:31:17,213 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 16:31:17,215 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 16:31:17,215 - DEBUG - Save data: {'timestamp': '2025-11-21T16:31:17.213538', 'version': '1.0', 'health': 100, 'inventory': [], 'puzzles_solved': {}, 'current_era_id': 'egypt', 'sound_enabled': True, 'completion': 0}
+2025-11-21 16:31:17,217 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:17] "POST /api/game/save HTTP/1.1" 200 -
+2025-11-21 16:31:18,467 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 16:31:19,344 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 16:31:19,344 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 16:31:19,346 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:19] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 16:31:20,643 - INFO - New game started
+2025-11-21 16:31:20,645 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:20] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 16:31:20,666 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:20] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 16:31:22,177 - INFO - Era selected: egypt
+2025-11-21 16:31:22,179 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:22] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 16:31:37,213 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 16:31:37,214 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 16:31:37,216 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:37] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 16:31:38,328 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 16:31:38,328 - INFO - Era selected: egypt
+2025-11-21 16:31:38,328 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 16:31:38,328 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-21 16:31:38,329 - INFO - 127.0.0.1 - - [21/Nov/2025 16:31:38] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-21 18:16:21,757 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:21,758 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:16:21,763 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:21] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:16:30,349 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:30,349 - INFO - Era selected: egypt
+2025-11-21 18:16:30,349 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:30,349 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-21 18:16:30,351 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:30] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-21 18:16:31,802 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:31,803 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:16:31,805 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:31] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:16:35,833 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:35,834 - INFO - Save file deleted
+2025-11-21 18:16:35,835 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:35] "POST /api/game/delete-save HTTP/1.1" 200 -
+2025-11-21 18:16:36,968 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:36,969 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-21 18:16:36,971 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:36] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:16:39,347 - INFO - New game started
+2025-11-21 18:16:39,349 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:39] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 18:16:39,356 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:39] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:16:41,316 - INFO - Era selected: spaceage
+2025-11-21 18:16:41,318 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:41] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 18:16:43,583 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:43,584 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:43,584 - DEBUG - Save data: {'timestamp': '2025-11-21T18:16:43.583835', 'version': '1.0', 'health': 100, 'inventory': [], 'puzzles_solved': {}, 'current_era_id': 'spaceage', 'sound_enabled': True, 'completion': 0}
+2025-11-21 18:16:43,586 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:43] "POST /api/game/save HTTP/1.1" 200 -
+2025-11-21 18:16:52,362 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:52,363 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:16:52,364 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:52] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:16:53,882 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:53,882 - INFO - Era selected: spaceage
+2025-11-21 18:16:53,882 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:53,882 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-21 18:16:53,885 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:53] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-21 18:16:56,169 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:56,170 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:16:56,171 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:56] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:16:59,569 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:16:59,570 - INFO - Save file deleted
+2025-11-21 18:16:59,572 - INFO - 127.0.0.1 - - [21/Nov/2025 18:16:59] "POST /api/game/delete-save HTTP/1.1" 200 -
+2025-11-21 18:17:00,704 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:17:00,704 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-21 18:17:00,706 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:00] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:17:02,882 - INFO - New game started
+2025-11-21 18:17:02,884 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:02] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 18:17:02,888 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:02] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:17:04,034 - INFO - Era selected: medieval
+2025-11-21 18:17:04,037 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:04] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 18:17:06,818 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:17:06,818 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-21 18:17:06,820 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:06] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:17:07,713 - INFO - New game started
+2025-11-21 18:17:07,715 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:07] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 18:17:07,720 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:07] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:17:10,750 - INFO - Era selected: spaceage
+2025-11-21 18:17:10,752 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:10] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 18:17:12,300 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:17:12,300 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-21 18:17:12,305 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:12] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:17:16,432 - INFO - New game started
+2025-11-21 18:17:16,434 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:16] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 18:17:16,441 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:16] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:17:20,068 - INFO - Era selected: renaissance
+2025-11-21 18:17:20,070 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:20] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 18:17:21,318 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:17:21,318 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-21 18:17:21,320 - INFO - 127.0.0.1 - - [21/Nov/2025 18:17:21] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:27:05,650 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-21 18:27:05,650 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 18:27:05,657 - INFO -  * Restarting with stat
+2025-11-21 18:27:05,829 - WARNING -  * Debugger is active!
+2025-11-21 18:27:05,852 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 18:27:08,322 - INFO - New session: 1f5d92820d5c8d0b6469cd757ed5002e
+2025-11-21 18:27:08,342 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:08] "GET / HTTP/1.1" 200 -
+2025-11-21 18:27:08,504 - INFO - GameEngine v2.0 initialized
+2025-11-21 18:27:08,505 - INFO - Game data loaded: 4 eras, 12 puzzles
+2025-11-21 18:27:08,506 - INFO - New game engine for session: 1f5d92820d5c8d0b6469cd757ed5002e
+2025-11-21 18:27:08,525 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:08] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:27:08,658 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:08] "GET /api/game/state HTTP/1.1" 200 -
+2025-11-21 18:27:08,809 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:27:08,809 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-21 18:27:08,810 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:08] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:27:08,831 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:27:08,831 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: False
+2025-11-21 18:27:08,833 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:08] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:27:10,970 - INFO - New game started
+2025-11-21 18:27:10,971 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:10] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 18:27:10,978 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:10] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:27:16,303 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:27:16,305 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:27:16,305 - DEBUG - Save data: {'timestamp': '2025-11-21T18:27:16.304991', 'version': '1.0', 'health': 100, 'inventory': [], 'puzzles_solved': {}, 'current_era_id': None, 'sound_enabled': True, 'completion': 0}
+2025-11-21 18:27:16,306 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:16] "POST /api/game/save HTTP/1.1" 200 -
+2025-11-21 18:27:17,502 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 18:27:19,157 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:27:19,157 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:27:19,159 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:19] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:27:20,720 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:27:20,720 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:27:20,720 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-21 18:27:20,722 - INFO - 127.0.0.1 - - [21/Nov/2025 18:27:20] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-21 18:34:10,704 - INFO - 127.0.0.1 - - [21/Nov/2025 18:34:10] "GET / HTTP/1.1" 200 -
+2025-11-21 18:34:10,742 - INFO - 127.0.0.1 - - [21/Nov/2025 18:34:10] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:34:10,811 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:34:10,811 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:34:10,835 - INFO - 127.0.0.1 - - [21/Nov/2025 18:34:10] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:34:10,843 - INFO - 127.0.0.1 - - [21/Nov/2025 18:34:10] "GET /api/game/state HTTP/1.1" 200 -
+2025-11-21 18:34:10,853 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:34:10,853 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:34:10,860 - INFO - 127.0.0.1 - - [21/Nov/2025 18:34:10] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:34:11,875 - INFO - New game started
+2025-11-21 18:34:11,877 - INFO - 127.0.0.1 - - [21/Nov/2025 18:34:11] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 18:34:11,882 - INFO - 127.0.0.1 - - [21/Nov/2025 18:34:11] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:35:00,600 - INFO - 127.0.0.1 - - [21/Nov/2025 18:35:00] "GET / HTTP/1.1" 200 -
+2025-11-21 18:35:00,633 - INFO - 127.0.0.1 - - [21/Nov/2025 18:35:00] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:35:00,667 - INFO - 127.0.0.1 - - [21/Nov/2025 18:35:00] "GET /api/game/state HTTP/1.1" 200 -
+2025-11-21 18:35:00,702 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 18:35:00,702 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 18:35:00,704 - INFO - 127.0.0.1 - - [21/Nov/2025 18:35:00] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 18:35:01,440 - INFO - New game started
+2025-11-21 18:35:01,441 - INFO - 127.0.0.1 - - [21/Nov/2025 18:35:01] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 18:35:01,448 - INFO - 127.0.0.1 - - [21/Nov/2025 18:35:01] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 18:35:02,073 - INFO - Era selected: egypt
+2025-11-21 18:35:02,075 - INFO - 127.0.0.1 - - [21/Nov/2025 18:35:02] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 21:32:33,047 - INFO -  * Detected change in '/Users/amitpathak/Documents/python/bpa/BPA SOFTWARE ENGINEERING/app1.py', reloading
+2025-11-21 21:32:33,113 - INFO -  * Restarting with stat
+2025-11-21 21:32:33,499 - INFO - ChronoQuest Flask Server Starting...
+2025-11-21 21:32:33,499 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-21 21:32:33,506 - WARNING -  * Debugger is active!
+2025-11-21 21:32:33,559 - INFO -  * Debugger PIN: 163-379-131
+2025-11-21 21:33:05,358 - INFO - ChronoQuest Flask Server Starting...
+2025-11-21 21:33:05,358 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-21 21:33:05,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-21 21:33:05,370 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 21:33:07,161 - INFO - New session: 30055c2db03d1da4861b9267e30d72f0
+2025-11-21 21:33:07,178 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:07] "GET / HTTP/1.1" 200 -
+2025-11-21 21:33:07,662 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:33:07,662 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:33:07,664 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:07] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:33:09,819 - INFO - GameEngine v2.0 initialized
+2025-11-21 21:33:09,820 - INFO - Game data loaded: 4 eras, 12 puzzles
+2025-11-21 21:33:09,820 - INFO - New game engine for session: 30055c2db03d1da4861b9267e30d72f0
+2025-11-21 21:33:09,820 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:33:09,821 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:33:09,821 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-21 21:33:09,824 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:09] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-21 21:33:13,784 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:33:13,784 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:33:13,786 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:13] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:33:14,465 - INFO - New game started
+2025-11-21 21:33:14,465 - INFO - Game initialized
+2025-11-21 21:33:14,466 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:14] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 21:33:14,473 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:14] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 21:33:15,333 - INFO - Era selected: egypt
+2025-11-21 21:33:15,335 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:15] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 21:33:15,390 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 21:33:19,701 - INFO - ✓ Puzzle solved: hieroglyphic_sequence
+2025-11-21 21:33:19,704 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:19] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:33:24,150 - INFO - Era selected: medieval
+2025-11-21 21:33:24,150 - INFO - Navigation: Next era
+2025-11-21 21:33:24,152 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:24] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:33:35,330 - INFO - ✓ Puzzle solved: code_lock
+2025-11-21 21:33:35,333 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:35] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:33:36,265 - INFO - Era selected: renaissance
+2025-11-21 21:33:36,265 - INFO - Navigation: Next era
+2025-11-21 21:33:36,267 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:36] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:33:39,168 - INFO - ✓ Puzzle solved: geometric_pattern
+2025-11-21 21:33:39,170 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:39] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:33:40,114 - INFO - Era selected: spaceage
+2025-11-21 21:33:40,114 - INFO - Navigation: Next era
+2025-11-21 21:33:40,134 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:40] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:33:43,616 - INFO - ✓ Puzzle solved: circuit_board
+2025-11-21 21:33:43,619 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:43] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:33:46,463 - INFO - New game started
+2025-11-21 21:33:46,464 - INFO - Game initialized
+2025-11-21 21:33:46,465 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:46] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 21:33:46,469 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:46] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 21:33:47,980 - INFO - Era selected: medieval
+2025-11-21 21:33:47,982 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:47] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 21:33:50,600 - INFO - Era selected: egypt
+2025-11-21 21:33:50,600 - INFO - Navigation: Previous era
+2025-11-21 21:33:50,602 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:50] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-21 21:33:53,968 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:33:53,968 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:33:53,970 - INFO - 127.0.0.1 - - [21/Nov/2025 21:33:53] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:38:41,024 - INFO - 127.0.0.1 - - [21/Nov/2025 21:38:41] "GET / HTTP/1.1" 200 -
+2025-11-21 21:38:41,108 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:38:41,108 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:38:41,111 - INFO - 127.0.0.1 - - [21/Nov/2025 21:38:41] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:39:16,081 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:16] "GET / HTTP/1.1" 200 -
+2025-11-21 21:39:16,206 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:39:16,206 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:39:16,211 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:16] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:39:17,367 - INFO - New game started
+2025-11-21 21:39:17,367 - INFO - Game initialized
+2025-11-21 21:39:17,370 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:17] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 21:39:17,378 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:17] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 21:39:18,268 - INFO - Era selected: egypt
+2025-11-21 21:39:18,270 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:18] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 21:39:18,320 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 21:39:21,684 - INFO - ✓ Puzzle solved: hieroglyphic_sequence
+2025-11-21 21:39:21,686 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:21] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:39:23,265 - INFO - Era selected: medieval
+2025-11-21 21:39:23,266 - INFO - Navigation: Next era
+2025-11-21 21:39:23,268 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:23] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:39:31,569 - INFO - ✓ Puzzle solved: code_lock
+2025-11-21 21:39:31,571 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:31] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:39:32,499 - INFO - Era selected: renaissance
+2025-11-21 21:39:32,500 - INFO - Navigation: Next era
+2025-11-21 21:39:32,502 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:32] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:39:34,163 - INFO - ✓ Puzzle solved: geometric_pattern
+2025-11-21 21:39:34,165 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:34] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:39:34,829 - INFO - Era selected: spaceage
+2025-11-21 21:39:34,829 - INFO - Navigation: Next era
+2025-11-21 21:39:34,832 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:34] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:39:37,347 - INFO - ✓ Puzzle solved: circuit_board
+2025-11-21 21:39:37,348 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:37] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:39:40,799 - INFO - New game started
+2025-11-21 21:39:40,800 - INFO - Game initialized
+2025-11-21 21:39:40,802 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:40] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 21:39:40,809 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:40] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 21:39:42,831 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:39:42,831 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:39:42,833 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:42] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:39:45,732 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:39:45,732 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:39:45,732 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-21 21:39:45,734 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:45] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-21 21:39:55,881 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:55] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-21 21:39:58,950 - INFO - 127.0.0.1 - - [21/Nov/2025 21:39:58] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-21 21:40:05,208 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:05] "GET / HTTP/1.1" 200 -
+2025-11-21 21:40:05,308 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:40:05,309 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:40:05,331 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:05] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:40:06,080 - INFO - New game started
+2025-11-21 21:40:06,080 - INFO - Game initialized
+2025-11-21 21:40:06,082 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:06] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-21 21:40:06,088 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:06] "GET /api/eras HTTP/1.1" 200 -
+2025-11-21 21:40:07,415 - INFO - Era selected: egypt
+2025-11-21 21:40:07,417 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:07] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-21 21:40:07,444 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 21:40:08,885 - INFO - ✓ Puzzle solved: hieroglyphic_sequence
+2025-11-21 21:40:08,887 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:08] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:40:09,397 - INFO - Era selected: medieval
+2025-11-21 21:40:09,397 - INFO - Navigation: Next era
+2025-11-21 21:40:09,399 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:09] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:40:11,631 - INFO - ✓ Puzzle solved: code_lock
+2025-11-21 21:40:11,633 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:11] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:40:12,061 - INFO - Era selected: renaissance
+2025-11-21 21:40:12,061 - INFO - Navigation: Next era
+2025-11-21 21:40:12,063 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:12] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:40:13,964 - INFO - ✓ Puzzle solved: geometric_pattern
+2025-11-21 21:40:13,966 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:13] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:40:14,363 - INFO - Era selected: spaceage
+2025-11-21 21:40:14,363 - INFO - Navigation: Next era
+2025-11-21 21:40:14,365 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:14] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-21 21:40:15,435 - INFO - ✓ Puzzle solved: circuit_board
+2025-11-21 21:40:15,437 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:15] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:40:17,935 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:40:17,935 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:40:17,937 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:17] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-21 21:40:25,916 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:40:25,917 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:40:25,917 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-21 21:40:25,919 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:25] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-21 21:40:28,863 - INFO - ✓ Puzzle solved: circuit_board
+2025-11-21 21:40:28,865 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:28] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-21 21:40:33,184 - INFO - Era selected: renaissance
+2025-11-21 21:40:33,184 - INFO - Navigation: Previous era
+2025-11-21 21:40:33,186 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:33] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-21 21:40:34,645 - INFO - Era selected: medieval
+2025-11-21 21:40:34,646 - INFO - Navigation: Previous era
+2025-11-21 21:40:34,648 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:34] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-21 21:40:35,231 - INFO - Era selected: egypt
+2025-11-21 21:40:35,232 - INFO - Navigation: Previous era
+2025-11-21 21:40:35,233 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:35] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-21 21:40:40,015 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-21 21:40:40,015 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-21 21:40:40,017 - INFO - 127.0.0.1 - - [21/Nov/2025 21:40:40] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:12:52,756 - INFO - ChronoQuest Flask Server Starting...
+2025-11-22 13:12:52,756 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-22 13:12:52,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-22 13:12:52,768 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-22 13:12:54,720 - INFO - New session: 9a11f128408f3acdba43c670fd58b586
+2025-11-22 13:12:54,751 - INFO - 127.0.0.1 - - [22/Nov/2025 13:12:54] "GET / HTTP/1.1" 200 -
+2025-11-22 13:12:55,181 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:12:55,181 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:12:55,346 - INFO - 127.0.0.1 - - [22/Nov/2025 13:12:55] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:12:57,205 - INFO - GameEngine v3.0 initialized with extended content
+2025-11-22 13:12:57,206 - INFO - Game data loaded: 4 eras, 28 puzzles (20+)
+2025-11-22 13:12:57,206 - INFO - New game engine for session: 9a11f128408f3acdba43c670fd58b586
+2025-11-22 13:12:57,206 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:12:57,207 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:12:57,207 - DEBUG - Restored state: Health=100%, Inventory=0, Completion=0%
+2025-11-22 13:12:57,209 - INFO - 127.0.0.1 - - [22/Nov/2025 13:12:57] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-22 13:13:02,775 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:13:02,775 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:13:02,781 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:02] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:13:03,655 - INFO - New game started - Extended edition
+2025-11-22 13:13:03,655 - INFO - Game initialized
+2025-11-22 13:13:03,657 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:03] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-22 13:13:03,663 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:03] "GET /api/eras HTTP/1.1" 200 -
+2025-11-22 13:13:04,621 - INFO - Era selected: egypt
+2025-11-22 13:13:04,623 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:04] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-22 13:13:04,676 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-22 13:13:06,906 - INFO - ✓ Puzzle solved: hieroglyphic_sequence +100 points
+2025-11-22 13:13:06,908 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:06] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:13:07,436 - INFO - Era selected: medieval
+2025-11-22 13:13:07,436 - INFO - Navigation: Next era
+2025-11-22 13:13:07,438 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:07] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:13:09,223 - INFO - ✓ Puzzle solved: code_lock +100 points
+2025-11-22 13:13:09,227 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:09] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:13:11,439 - INFO - Era selected: renaissance
+2025-11-22 13:13:11,440 - INFO - Navigation: Next era
+2025-11-22 13:13:11,442 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:11] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:13:15,875 - INFO - ✓ Puzzle solved: geometric_pattern +150 points
+2025-11-22 13:13:15,877 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:15] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:13:16,820 - INFO - Era selected: spaceage
+2025-11-22 13:13:16,820 - INFO - Navigation: Next era
+2025-11-22 13:13:16,822 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:16] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:13:18,853 - INFO - ✓ Puzzle solved: circuit_board +200 points
+2025-11-22 13:13:18,857 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:18] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:13:24,038 - INFO - Era selected: renaissance
+2025-11-22 13:13:24,039 - INFO - Navigation: Previous era
+2025-11-22 13:13:24,041 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:24] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-22 13:13:24,425 - INFO - Era selected: medieval
+2025-11-22 13:13:24,425 - INFO - Navigation: Previous era
+2025-11-22 13:13:24,428 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:24] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-22 13:13:24,720 - INFO - Era selected: egypt
+2025-11-22 13:13:24,720 - INFO - Navigation: Previous era
+2025-11-22 13:13:24,722 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:24] "POST /api/era/previous HTTP/1.1" 200 -
+2025-11-22 13:13:26,686 - INFO - Era selected: medieval
+2025-11-22 13:13:26,686 - INFO - Navigation: Next era
+2025-11-22 13:13:26,688 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:26] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:13:28,157 - INFO - Era selected: renaissance
+2025-11-22 13:13:28,158 - INFO - Navigation: Next era
+2025-11-22 13:13:28,161 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:28] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:13:28,440 - INFO - Era selected: spaceage
+2025-11-22 13:13:28,440 - INFO - Navigation: Next era
+2025-11-22 13:13:28,443 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:28] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:13:31,025 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:13:31,027 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:13:31,028 - DEBUG - Save data: {'timestamp': '2025-11-22T13:13:31.025577', 'version': '1.0', 'health': 100, 'inventory': ['Scarab Amulet', 'Castle Key', 'Golden Compass', 'Data Core'], 'puzzles_solved': {'hieroglyphic_sequence': True, 'code_lock': True, 'geometric_pattern': True, 'circuit_board': True}, 'current_era_id': 'spaceage', 'sound_enabled': True, 'completion': 0}
+2025-11-22 13:13:31,030 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:31] "POST /api/game/save HTTP/1.1" 200 -
+2025-11-22 13:13:33,558 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:13:33,558 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:13:33,560 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:33] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:13:34,559 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:13:34,560 - INFO - Era selected: spaceage
+2025-11-22 13:13:34,560 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:13:34,560 - DEBUG - Restored state: Health=100%, Inventory=4, Completion=0%
+2025-11-22 13:13:34,562 - INFO - 127.0.0.1 - - [22/Nov/2025 13:13:34] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-22 13:19:21,960 - INFO - ChronoQuest Flask Server Starting...
+2025-11-22 13:19:21,962 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-22 13:19:21,975 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-22 13:19:21,975 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-22 13:19:23,472 - INFO - New session: a2b361f59257d7cd3521a4d11ed37782
+2025-11-22 13:19:23,498 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:23] "GET / HTTP/1.1" 200 -
+2025-11-22 13:19:24,075 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:19:24,075 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:19:24,077 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:24] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:19:24,956 - INFO - GameEngine v3.0 initialized with extended content
+2025-11-22 13:19:24,957 - INFO - Game data loaded: 4 eras, 28 puzzles (20+)
+2025-11-22 13:19:24,957 - INFO - New game engine for session: a2b361f59257d7cd3521a4d11ed37782
+2025-11-22 13:19:24,958 - INFO - New game started - Extended edition
+2025-11-22 13:19:24,958 - INFO - Game initialized
+2025-11-22 13:19:24,960 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:24] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-22 13:19:24,969 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:24] "GET /api/eras HTTP/1.1" 200 -
+2025-11-22 13:19:25,957 - INFO - Era selected: egypt
+2025-11-22 13:19:25,960 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:25] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-22 13:19:26,018 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-22 13:19:28,307 - INFO - ✓ Puzzle solved: hieroglyphic_sequence +100 points
+2025-11-22 13:19:28,311 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:28] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:19:28,887 - INFO - Era selected: medieval
+2025-11-22 13:19:28,887 - INFO - Navigation: Next era
+2025-11-22 13:19:28,889 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:28] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:19:30,058 - INFO - ✓ Puzzle solved: code_lock +100 points
+2025-11-22 13:19:30,060 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:30] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:19:30,906 - INFO - Era selected: renaissance
+2025-11-22 13:19:30,907 - INFO - Navigation: Next era
+2025-11-22 13:19:30,909 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:30] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:19:34,487 - INFO - ✓ Puzzle solved: geometric_pattern +150 points
+2025-11-22 13:19:34,489 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:34] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:19:35,056 - INFO - Era selected: spaceage
+2025-11-22 13:19:35,056 - INFO - Navigation: Next era
+2025-11-22 13:19:35,058 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:35] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:19:37,338 - INFO - ✓ Puzzle solved: circuit_board +200 points
+2025-11-22 13:19:37,340 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:37] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:19:44,723 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:19:44,724 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:19:44,726 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:44] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:19:46,320 - INFO - New game started - Extended edition
+2025-11-22 13:19:46,320 - INFO - Game initialized
+2025-11-22 13:19:46,322 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:46] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-22 13:19:46,327 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:46] "GET /api/eras HTTP/1.1" 200 -
+2025-11-22 13:19:47,290 - INFO - Era selected: egypt
+2025-11-22 13:19:47,293 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:47] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-22 13:19:49,387 - INFO - ✓ Puzzle solved: hieroglyphic_sequence +100 points
+2025-11-22 13:19:49,390 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:49] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:19:49,902 - INFO - Era selected: medieval
+2025-11-22 13:19:49,903 - INFO - Navigation: Next era
+2025-11-22 13:19:49,905 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:49] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:19:51,004 - INFO - ✓ Puzzle solved: code_lock +100 points
+2025-11-22 13:19:51,006 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:51] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:19:51,535 - INFO - Era selected: renaissance
+2025-11-22 13:19:51,535 - INFO - Navigation: Next era
+2025-11-22 13:19:51,538 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:51] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:19:52,969 - INFO - ✓ Puzzle solved: geometric_pattern +150 points
+2025-11-22 13:19:52,975 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:52] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:19:54,174 - INFO - Era selected: spaceage
+2025-11-22 13:19:54,174 - INFO - Navigation: Next era
+2025-11-22 13:19:54,177 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:54] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:19:55,703 - INFO - ✓ Puzzle solved: circuit_board +200 points
+2025-11-22 13:19:55,705 - INFO - 127.0.0.1 - - [22/Nov/2025 13:19:55] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:20:00,222 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:20:00,223 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:20:00,223 - DEBUG - Save data: {'timestamp': '2025-11-22T13:20:00.222699', 'version': '1.0', 'health': 100, 'inventory': ['Scarab Amulet', 'Castle Key', 'Golden Compass', 'Data Core'], 'puzzles_solved': {'hieroglyphic_sequence': True, 'code_lock': True, 'geometric_pattern': True, 'circuit_board': True}, 'current_era_id': 'spaceage', 'sound_enabled': True, 'completion': 5}
+2025-11-22 13:20:00,225 - INFO - 127.0.0.1 - - [22/Nov/2025 13:20:00] "POST /api/game/save HTTP/1.1" 200 -
+2025-11-22 13:20:19,321 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:20:19,322 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:20:19,324 - INFO - 127.0.0.1 - - [22/Nov/2025 13:20:19] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:20:27,238 - INFO - New game started - Extended edition
+2025-11-22 13:20:27,238 - INFO - Game initialized
+2025-11-22 13:20:27,240 - INFO - 127.0.0.1 - - [22/Nov/2025 13:20:27] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-22 13:20:27,246 - INFO - 127.0.0.1 - - [22/Nov/2025 13:20:27] "GET /api/eras HTTP/1.1" 200 -
+2025-11-22 13:27:31,227 - INFO - ChronoQuest Flask Server Starting...
+2025-11-22 13:27:31,228 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-22 13:27:31,241 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-22 13:27:31,241 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-22 13:27:32,789 - INFO - New session: 8c5b670de0556edbeffd76a25f874774
+2025-11-22 13:27:32,813 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:32] "GET / HTTP/1.1" 200 -
+2025-11-22 13:27:33,046 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:27:33,047 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:27:33,079 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:33] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:27:34,472 - INFO - GameEngine v4.0 initialized with extended content
+2025-11-22 13:27:34,472 - INFO - Game data loaded: 4 eras, 28 puzzles (20+)
+2025-11-22 13:27:34,472 - INFO - New game engine for session: 8c5b670de0556edbeffd76a25f874774
+2025-11-22 13:27:34,472 - INFO - New game started - Extended edition
+2025-11-22 13:27:34,472 - INFO - Game initialized
+2025-11-22 13:27:34,475 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:34] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-22 13:27:34,483 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:34] "GET /api/eras HTTP/1.1" 200 -
+2025-11-22 13:27:36,005 - INFO - Era selected: egypt
+2025-11-22 13:27:36,008 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:36] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-22 13:27:39,389 - INFO - ✓ Puzzle solved: hieroglyphic_sequence +100 points
+2025-11-22 13:27:39,392 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:39] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:27:39,969 - INFO - Era selected: medieval
+2025-11-22 13:27:39,969 - INFO - Navigation: Next era
+2025-11-22 13:27:39,971 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:39] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:27:42,219 - INFO - ✓ Puzzle solved: code_lock +100 points
+2025-11-22 13:27:42,221 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:42] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:27:43,151 - INFO - Era selected: renaissance
+2025-11-22 13:27:43,151 - INFO - Navigation: Next era
+2025-11-22 13:27:43,153 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:43] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:27:46,190 - INFO - ✓ Puzzle solved: geometric_pattern +150 points
+2025-11-22 13:27:46,192 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:46] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:27:46,801 - INFO - Era selected: spaceage
+2025-11-22 13:27:46,802 - INFO - Navigation: Next era
+2025-11-22 13:27:46,804 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:46] "POST /api/era/next HTTP/1.1" 200 -
+2025-11-22 13:27:49,054 - INFO - ✓ Puzzle solved: circuit_board +200 points
+2025-11-22 13:27:49,056 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:49] "POST /api/puzzle/solve HTTP/1.1" 200 -
+2025-11-22 13:27:52,672 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:27:52,672 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:27:52,674 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:52] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:27:55,036 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:27:55,038 - INFO - Era selected: spaceage
+2025-11-22 13:27:55,038 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:27:55,038 - DEBUG - Restored state: Health=100%, Inventory=4, Completion=4%
+2025-11-22 13:27:55,040 - INFO - 127.0.0.1 - - [22/Nov/2025 13:27:55] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-22 13:28:36,764 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:28:36,767 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:28:36,767 - DEBUG - Save data: {'timestamp': '2025-11-22T13:28:36.765729', 'version': '1.0', 'health': 100, 'inventory': ['Scarab Amulet', 'Castle Key', 'Golden Compass', 'Data Core'], 'puzzles_solved': {'hieroglyphic_sequence': True, 'code_lock': True, 'geometric_pattern': True, 'circuit_board': True}, 'current_era_id': 'spaceage', 'sound_enabled': True, 'completion': 4}
+2025-11-22 13:28:36,770 - INFO - 127.0.0.1 - - [22/Nov/2025 13:28:36] "POST /api/game/save HTTP/1.1" 200 -
+2025-11-22 13:28:39,807 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:28:39,807 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:28:39,809 - INFO - 127.0.0.1 - - [22/Nov/2025 13:28:39] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 13:29:00,519 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:29:00,520 - INFO - Era selected: spaceage
+2025-11-22 13:29:00,520 - INFO - Game loaded: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:29:00,520 - DEBUG - Restored state: Health=100%, Inventory=4, Completion=4%
+2025-11-22 13:29:00,522 - INFO - 127.0.0.1 - - [22/Nov/2025 13:29:00] "POST /api/game/load HTTP/1.1" 200 -
+2025-11-22 13:29:02,770 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:29:02,771 - INFO - Game saved: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:29:02,772 - DEBUG - Save data: {'timestamp': '2025-11-22T13:29:02.770995', 'version': '1.0', 'health': 100, 'inventory': ['Scarab Amulet', 'Castle Key', 'Golden Compass', 'Data Core'], 'puzzles_solved': {'hieroglyphic_sequence': True, 'code_lock': True, 'geometric_pattern': True, 'circuit_board': True}, 'current_era_id': 'spaceage', 'sound_enabled': True, 'completion': 4}
+2025-11-22 13:29:02,774 - INFO - 127.0.0.1 - - [22/Nov/2025 13:29:02] "POST /api/game/save HTTP/1.1" 200 -
+2025-11-22 13:32:31,005 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 13:32:31,007 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 13:32:31,016 - INFO - 127.0.0.1 - - [22/Nov/2025 13:32:31] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 19:47:29,577 - INFO - ChronoQuest Flask Server Starting...
+2025-11-22 19:47:29,579 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-22 19:47:29,594 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-22 19:47:29,594 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-22 19:47:30,939 - INFO - New session: 7901744d355453d7562460e3b2e8a986
+2025-11-22 19:47:30,977 - INFO - 127.0.0.1 - - [22/Nov/2025 19:47:30] "GET / HTTP/1.1" 200 -
+2025-11-22 19:47:31,461 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 19:47:31,462 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 19:47:31,471 - INFO - 127.0.0.1 - - [22/Nov/2025 19:47:31] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 19:47:37,121 - INFO - GameEngine v4.0 initialized with fixed progression
+2025-11-22 19:47:37,123 - INFO - Game data loaded: 4 eras
+2025-11-22 19:47:37,124 - INFO - New game engine for session: 7901744d355453d7562460e3b2e8a986
+2025-11-22 19:47:37,124 - ERROR - Init error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-11-22 19:47:37,127 - INFO - 127.0.0.1 - - [22/Nov/2025 19:47:37] "[35m[1mPOST /api/game/init HTTP/1.1[0m" 500 -
+2025-11-22 19:47:37,133 - INFO - 127.0.0.1 - - [22/Nov/2025 19:47:37] "GET /api/eras HTTP/1.1" 200 -
+2025-11-22 19:47:38,733 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-22 19:47:38,734 - DEBUG - Era egypt completion: 0%
+2025-11-22 19:47:38,734 - DEBUG - Era medieval completion: 0%
+2025-11-22 19:47:38,734 - DEBUG - Era renaissance completion: 0%
+2025-11-22 19:47:38,734 - DEBUG - Era spaceage completion: 0%
+2025-11-22 19:47:38,734 - DEBUG - Total completion: 0%
+2025-11-22 19:47:38,736 - INFO - 127.0.0.1 - - [22/Nov/2025 19:47:38] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-22 19:54:37,116 - INFO - 127.0.0.1 - - [22/Nov/2025 19:54:37] "GET / HTTP/1.1" 200 -
+2025-11-22 19:54:37,300 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-22 19:54:37,300 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-22 19:54:37,303 - INFO - 127.0.0.1 - - [22/Nov/2025 19:54:37] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-22 19:54:38,261 - INFO - New game started
+2025-11-22 19:54:38,261 - INFO - Difficulty set to: normal
+2025-11-22 19:54:38,261 - INFO - Game initialized with difficulty: normal
+2025-11-22 19:54:38,263 - INFO - 127.0.0.1 - - [22/Nov/2025 19:54:38] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-22 19:54:38,267 - INFO - 127.0.0.1 - - [22/Nov/2025 19:54:38] "GET /api/eras HTTP/1.1" 200 -
+2025-11-22 19:54:39,062 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-22 19:54:39,062 - DEBUG - Era egypt completion: 0%
+2025-11-22 19:54:39,062 - DEBUG - Era medieval completion: 0%
+2025-11-22 19:54:39,062 - DEBUG - Era renaissance completion: 0%
+2025-11-22 19:54:39,062 - DEBUG - Era spaceage completion: 0%
+2025-11-22 19:54:39,062 - DEBUG - Total completion: 0%
+2025-11-22 19:54:39,065 - INFO - 127.0.0.1 - - [22/Nov/2025 19:54:39] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-26 23:25:46,480 - INFO - ChronoQuest Flask Server Starting...
+2025-11-26 23:25:46,481 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-26 23:25:46,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-26 23:25:46,492 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 23:25:49,041 - INFO - New session: 8d2dbbb2bd92b03cd2d1e16ab87d1e18
+2025-11-26 23:25:49,065 - INFO - 127.0.0.1 - - [26/Nov/2025 23:25:49] "GET / HTTP/1.1" 200 -
+2025-11-26 23:25:49,496 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-26 23:25:49,497 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-26 23:25:49,499 - INFO - 127.0.0.1 - - [26/Nov/2025 23:25:49] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-26 23:25:50,440 - INFO - GameEngine v5.0 initialized
+2025-11-26 23:25:50,440 - INFO - Game data loaded: 4 eras with 24 puzzles
+2025-11-26 23:25:50,440 - INFO - New game engine for session: 8d2dbbb2bd92b03cd2d1e16ab87d1e18
+2025-11-26 23:25:50,440 - INFO - New game started
+2025-11-26 23:25:50,440 - INFO - Difficulty set to: normal
+2025-11-26 23:25:50,440 - INFO - Game initialized with difficulty: normal
+2025-11-26 23:25:50,442 - INFO - 127.0.0.1 - - [26/Nov/2025 23:25:50] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-26 23:25:50,447 - INFO - 127.0.0.1 - - [26/Nov/2025 23:25:50] "GET /api/eras HTTP/1.1" 200 -
+2025-11-26 23:25:51,191 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-26 23:25:51,194 - INFO - 127.0.0.1 - - [26/Nov/2025 23:25:51] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-27 15:15:20,597 - INFO - ChronoQuest Flask Server Starting...
+2025-11-27 15:15:20,600 - INFO - Visit http://127.0.0.1:5000 in your browser
+2025-11-27 15:15:20,613 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-27 15:15:20,613 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-27 15:15:25,269 - INFO - New session: 296e018458293b647fe5ca5a78548512
+2025-11-27 15:15:25,286 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:25] "GET / HTTP/1.1" 200 -
+2025-11-27 15:15:25,557 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-27 15:15:25,558 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-27 15:15:25,560 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:25] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-27 15:15:25,609 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-27 15:15:26,643 - INFO - GameEngine v5.1 initialized
+2025-11-27 15:15:26,643 - INFO - Game data loaded: 4 eras with 24 puzzles
+2025-11-27 15:15:26,643 - INFO - New game engine for session: 296e018458293b647fe5ca5a78548512
+2025-11-27 15:15:26,643 - INFO - New game started
+2025-11-27 15:15:26,643 - INFO - Difficulty set to: normal
+2025-11-27 15:15:26,643 - INFO - Game initialized with difficulty: normal
+2025-11-27 15:15:26,646 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:26] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-27 15:15:26,654 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:26] "GET /api/eras HTTP/1.1" 200 -
+2025-11-27 15:15:27,525 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-27 15:15:27,527 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:27] "POST /api/era/select HTTP/1.1" 200 -
+2025-11-27 15:15:49,761 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:49] "POST /api/puzzle/hint HTTP/1.1" 200 -
+2025-11-27 15:15:54,578 - INFO - Database initialized: /Users/amitpathak/Documents/chronoquest_save.json
+2025-11-27 15:15:54,578 - DEBUG - Save file check: /Users/amitpathak/Documents/chronoquest_save.json - Exists: True
+2025-11-27 15:15:54,580 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:54] "GET /api/game/save-check HTTP/1.1" 200 -
+2025-11-27 15:15:56,458 - INFO - New game started
+2025-11-27 15:15:56,459 - INFO - Difficulty set to: normal
+2025-11-27 15:15:56,459 - INFO - Game initialized with difficulty: normal
+2025-11-27 15:15:56,461 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:56] "POST /api/game/init HTTP/1.1" 200 -
+2025-11-27 15:15:56,469 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:56] "GET /api/eras HTTP/1.1" 200 -
+2025-11-27 15:15:57,258 - INFO - Era selected: egypt (Ancient Egypt)
+2025-11-27 15:15:57,260 - INFO - 127.0.0.1 - - [27/Nov/2025 15:15:57] "POST /api/era/select HTTP/1.1" 200 -
