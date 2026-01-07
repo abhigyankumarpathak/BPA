@@ -69,9 +69,9 @@ EDUCATION = {
 FAMILY = {
     "title": "Family",
     "content": """
-    Matt Meyer lives in Wilmington with his wife, Dr. Lauren Meyer (née Cooksey), an emergency medicine physician. They have 3 children.
-
-    His spouse's work in medicine informs his understanding of public-health challenges, and parenthood shapes his interest in education and community support programs.
+    Matt Meyer lives in Wilmington with his wife, Dr. Lauren Meyer (née Cooksey), who is an emergency medicine doctor, and their three children. 
+    
+    His wife’s work in healthcare has helped him better understand public health issues, and being a parent has influenced his interest in education and programs that support families and communities.
     """,
     "image": "https://www.delawareonline.com/gcdn/authoring/authoring-images/2024/11/06/PWIL/76086763007-110524-delaware-dems-celebratewbwb-022837.JPG?crop=3335,1876,x0,y141"
 }
@@ -83,7 +83,7 @@ CAREER = {
     "content": """
     Matt Meyer's professional background spans teaching, entrepreneurship, diplomacy, and public service.
 
-    • 2017—2025 — New Castle County Executive  
+    • 2017-2025 — New Castle County Executive  
       Focused on housing, economic recovery, and modernization of county services.
 
     • 2025—Present — 76th Governor of Delaware  

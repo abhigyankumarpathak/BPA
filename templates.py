@@ -25,6 +25,9 @@ def format_content_with_lists(content_text):
                 )
                 list_items = []
                 in_list = False
+            else:
+                # Add blank line between paragraphs
+                html_parts.append('<div style="height: 1rem;"></div>')
             continue
 
         if (
@@ -1855,7 +1858,6 @@ body {{
       </div>
     </footer>
 
-
     <!-- AOS Animation Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -2074,15 +2076,15 @@ def get_education_content():
     return f"""
    <div class="content-section">
        <div class="section-content reverse">
+           <div class="section-image" data-aos="fade-right">
+               <img src="{EDUCATION.get('image', '/static/images/education.jpg')}" 
+                    alt="{EDUCATION.get('title', 'Education')}">
+           </div>
            <div class="section-text" data-aos="fade-left">
                <h2>{EDUCATION.get('title', 'Education')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
-           </div>
-           <div class="section-image" data-aos="fade-right">
-               <img src="{EDUCATION.get('image', '/static/images/education.jpg')}" 
-                    alt="{EDUCATION.get('title', 'Education')}">
            </div>
        </div>
    </div>
@@ -2115,20 +2117,22 @@ def get_family_content():
 def get_career_content():
     content_text = CAREER.get(
         'content', 'Content about professional career and achievements.')
+    # Replace em-dashes with regular dashes in date ranges
+    content_text = content_text.replace('–', '-').replace('—', '-')
     formatted_content = format_content_with_lists(content_text)
 
     return f"""
    <div class="content-section">
        <div class="section-content reverse">
+           <div class="section-image" data-aos="fade-right">
+               <img src="{CAREER.get('image', '/static/images/career.jpg')}" 
+                    alt="{CAREER.get('title', 'Career')}">
+           </div>
            <div class="section-text" data-aos="fade-left">
                <h2>{CAREER.get('title', 'Career')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
-           </div>
-           <div class="section-image" data-aos="fade-right">
-               <img src="{CAREER.get('image', '/static/images/career.jpg')}" 
-                    alt="{CAREER.get('title', 'Career')}">
            </div>
        </div>
    </div>
@@ -2145,7 +2149,7 @@ def get_awards_content():
     additional_image_html = ''
     if additional_image:
         additional_image_html = f'''
-           <div class="awards-image-container" data-aos="fade-right" data-aos-delay="200">
+           <div class="awards-image-container" data-aos="fade-left" data-aos-delay="200">
                <img src="{additional_image}" 
                     alt="{AWARDS.get('title', 'Awards')} - Additional">
            </div>
@@ -2154,18 +2158,18 @@ def get_awards_content():
     return f"""
    <div class="content-section">
        <div class="section-content reverse">
-           <div class="section-text" data-aos="fade-left">
-               <h2>{AWARDS.get('title', 'Awards')}</h2>
-               <div class="content-text">
-               {formatted_content}
-               </div>
-           </div>
            <div class="awards-images-wrapper">
-               <div class="awards-image-container" data-aos="fade-right">
+               <div class="awards-image-container" data-aos="fade-left">
                    <img src="{AWARDS.get('image', '/static/images/awards.jpg')}" 
                         alt="{AWARDS.get('title', 'Awards')}">
                </div>
                {additional_image_html}
+           </div>
+           <div class="section-text" data-aos="fade-right">
+               <h2>{AWARDS.get('title', 'Awards')}</h2>
+               <div class="content-text">
+               {formatted_content}
+               </div>
            </div>
        </div>
    </div>
@@ -2181,14 +2185,14 @@ def get_contributions_content():
    <div class="content-section">
        <div class="section-content">
            <div class="section-text" data-aos="fade-right">
-               <h2>{CONTRIBUTIONS.get('title', 'Contributions')}</h2>
+               <h2>{CONTRIBUTIONS.get('title', 'Impact')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
            </div>
            <div class="section-image" data-aos="fade-left">
                <img src="{CONTRIBUTIONS.get('image', '/static/images/contributions.jpg')}" 
-                    alt="{CONTRIBUTIONS.get('title', 'Contributions')}">
+                    alt="{CONTRIBUTIONS.get('title', 'Impact')}">
            </div>
        </div>
    </div>
