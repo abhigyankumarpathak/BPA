@@ -789,7 +789,7 @@ body {{
             border-radius: 10px;
             transition: var(--transition);
             position: relative;
-            font-size: 1.05rem;
+            font-size: 1.3rem;
         }}
 
         .nav-link:hover {{
@@ -1781,7 +1781,7 @@ body {{
                 <li><a href="/family" class="nav-link {'active' if current_page == 'family' else ''}">Family</a></li>
                 <li><a href="/career" class="nav-link {'active' if current_page == 'career' else ''}">Career</a></li>
                 <li><a href="/awards" class="nav-link {'active' if current_page == 'awards' else ''}">Awards</a></li>
-                <li><a href="/contributions" class="nav-link {'active' if current_page == 'contributions' else ''}">Contributions</a></li>
+                <li><a href="/contributions" class="nav-link {'active' if current_page == 'contributions' else ''}">Impact</a></li>
                 <li><a href="/philanthropy" class="nav-link {'active' if current_page == 'philanthropy' else ''}">Philanthropy</a></li>
             </ul>
             <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
@@ -1819,7 +1819,7 @@ body {{
             <li><a href="/">Home</a></li>
             <li><a href="/early-life">Early Life</a></li>
             <li><a href="/career">Career</a></li>
-            <li><a href="/contributions">Contributions</a></li>
+            <li><a href="/contributions">Impact</a></li>
           </ul>
         </div>
 
@@ -2076,11 +2076,11 @@ def get_education_content():
     return f"""
    <div class="content-section">
        <div class="section-content reverse">
-           <div class="section-image" data-aos="fade-right">
+           <div class="section-image" data-aos="fade-right" data-aos-delay="0">
                <img src="{EDUCATION.get('image', '/static/images/education.jpg')}" 
                     alt="{EDUCATION.get('title', 'Education')}">
            </div>
-           <div class="section-text" data-aos="fade-left">
+           <div class="section-text" data-aos="fade-left" data-aos-delay="200">
                <h2>{EDUCATION.get('title', 'Education')}</h2>
                <div class="content-text">
                {formatted_content}
@@ -2117,18 +2117,17 @@ def get_family_content():
 def get_career_content():
     content_text = CAREER.get(
         'content', 'Content about professional career and achievements.')
-    # Replace em-dashes with regular dashes in date ranges
     content_text = content_text.replace('–', '-').replace('—', '-')
     formatted_content = format_content_with_lists(content_text)
 
     return f"""
    <div class="content-section">
        <div class="section-content reverse">
-           <div class="section-image" data-aos="fade-right">
+           <div class="section-image" data-aos="fade-right" data-aos-delay="0">
                <img src="{CAREER.get('image', '/static/images/career.jpg')}" 
                     alt="{CAREER.get('title', 'Career')}">
            </div>
-           <div class="section-text" data-aos="fade-left">
+           <div class="section-text" data-aos="fade-left" data-aos-delay="200">
                <h2>{CAREER.get('title', 'Career')}</h2>
                <div class="content-text">
                {formatted_content}
@@ -2144,12 +2143,11 @@ def get_awards_content():
         'content', 'Content about awards and recognitions received.')
     formatted_content = format_content_with_lists(content_text)
 
-    # Check if there's an additional image
     additional_image = AWARDS.get('additional_image', '')
     additional_image_html = ''
     if additional_image:
         additional_image_html = f'''
-           <div class="awards-image-container" data-aos="fade-left" data-aos-delay="200">
+           <div class="awards-image-container" data-aos="fade-left" data-aos-delay="100">
                <img src="{additional_image}" 
                     alt="{AWARDS.get('title', 'Awards')} - Additional">
            </div>
@@ -2159,13 +2157,13 @@ def get_awards_content():
    <div class="content-section">
        <div class="section-content reverse">
            <div class="awards-images-wrapper">
-               <div class="awards-image-container" data-aos="fade-left">
+               <div class="awards-image-container" data-aos="fade-left" data-aos-delay="0">
                    <img src="{AWARDS.get('image', '/static/images/awards.jpg')}" 
                         alt="{AWARDS.get('title', 'Awards')}">
                </div>
                {additional_image_html}
            </div>
-           <div class="section-text" data-aos="fade-right">
+           <div class="section-text" data-aos="fade-right" data-aos-delay="200">
                <h2>{AWARDS.get('title', 'Awards')}</h2>
                <div class="content-text">
                {formatted_content}
