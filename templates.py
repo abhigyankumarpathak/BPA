@@ -1797,38 +1797,62 @@ body {{
         {content}
     </main>
 
-    <!-- Footer -->
+        <!-- Footer -->
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-section">
-                <h3><i class="fas fa-info-circle"></i> About</h3>
-                <p>This website celebrates the life and achievements of a remarkable community leader who has made lasting impacts through dedication, passion, and service.</p>
-            </div>
-            <div class="footer-section">
-                <h3><i class="fas fa-link"></i> Quick Links</h3>
-                <ul class="footer-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/early-life">Early Life</a></li>
-                    <li><a href="/career">Career</a></li>
-                    <li><a href="/contributions">Contributions</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3><i class="fas fa-envelope"></i> Contact</h3>
-                <p><i class="fas fa-envelope"></i> Email: {CONTACT_EMAIL}</p>
-                <p><i class="fas fa-phone"></i> Phone: {CONTACT_PHONE}</p>
-                <p><i class="fas fa-map-marker-alt"></i> Location: 1235 Cedar Lane Rd, Middletown, DE 19709</p>
-                <div class="social-links">
-                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
+      <div class="footer-container">
+
+        <div class="footer-section">
+          <h3><i class="fas fa-info-circle"></i> About</h3>
+          <p>
+            This website celebrates the life and achievements of a remarkable
+            community leader who has made lasting impacts through dedication,
+            passion, and service.
+          </p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 BPA Web-Design Team. All rights reserved.</p>
+
+        <div class="footer-section">
+          <h3><i class="fas fa-link"></i> Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/early-life">Early Life</a></li>
+            <li><a href="/career">Career</a></li>
+            <li><a href="/contributions">Contributions</a></li>
+          </ul>
         </div>
+
+        <div class="footer-section">
+          <h3><i class="fas fa-envelope"></i> Contact</h3>
+          <p><i class="fas fa-envelope"></i> Email: {CONTACT_EMAIL}</p>
+          <p><i class="fas fa-phone"></i> Phone: {CONTACT_PHONE}</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i>
+            Location: 1235 Cedar Lane Rd, Middletown, DE 19709
+          </p>
+
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://x.com" target="_blank" rel="noopener" aria-label="X">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 BPA Web-Design Team. All rights reserved.</p>
+      </div>
     </footer>
 
     <!-- AOS Animation Script -->
