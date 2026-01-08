@@ -39,7 +39,7 @@ def register_routes(app):
     @app.route('/contributions')
     def contributions():
         content = get_contributions_content()
-        return render_template_string(get_base_html(content, "Contributions", "contributions", HERO_IMAGE))
+        return render_template_string(get_base_html(content, "Impacts", "contributions", HERO_IMAGE))
 
     @app.route('/awards')
     def awards():

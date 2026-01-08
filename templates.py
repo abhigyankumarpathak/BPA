@@ -71,6 +71,7 @@ def get_base_html(content, title, current_page, hero_image):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} - Community Leader Biography</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236366f1'><path d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z'/></svg>">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,7 +83,7 @@ def get_base_html(content, title, current_page, hero_image):
 <style>
 /* =========================
    ENHANCED LIGHT MODE WITH STRONGER CONTRAST
-   ========================= 
+   =========================
    This design features:
    - Stronger shadows with layered depth (multiple shadow layers)
    - Thicker borders on all interactive elements (3-4px)
@@ -103,17 +104,17 @@ def get_base_html(content, title, current_page, hero_image):
     --accent-tertiary: #6366f1;      /* indigo accent */
     --accent-quaternary: #4f46e5;    /* indigo accent */
     --success-color: #10b981;        /* pleasant green for success states */
-    
+
     /* Text colors - modern charcoal tones for readability */
     --text-dark: #0b1320;
     --text-medium: #24303b;
     --text-light: #475569;
-    
+
     /* Backgrounds - soft layered gradients for depth */
     --background: linear-gradient(180deg, #e0f7ff 0%, #d0f0ff 100%);
     --background-alt: linear-gradient(135deg, #f0faff 0%, #e0f5ff 100%);
     --background-gradient: linear-gradient(135deg, #00bfff 0%, #1e90ff 100%);
-    
+
     /* Shadows - ENHANCED for much stronger light mode contrast */
     --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.12), 0 3px 8px rgba(0, 191, 255, 0.2);
     --shadow-md: 0 16px 40px rgba(0, 0, 0, 0.15), 0 6px 16px rgba(0, 191, 255, 0.25);
@@ -325,7 +326,7 @@ body {{
             border-radius: var(--border-radius);
             backdrop-filter: blur(20px);
             border: 2px solid rgba(255,255,255,0.4);
-            box-shadow: 
+            box-shadow:
                 0 12px 40px rgba(0, 0, 0, 0.35),
                 0 6px 18px rgba(0, 0, 0, 0.25),
                 inset 0 2px 8px rgba(255, 255, 255, 0.3);
@@ -395,7 +396,7 @@ body {{
 
         /* Light mode only - add extra depth */
         :root .stat-card {{
-            box-shadow: 
+            box-shadow:
                 0 16px 40px rgba(0, 0, 0, 0.15),
                 0 6px 16px rgba(0, 191, 255, 0.25),
                 inset 0 2px 10px rgba(255, 255, 255, 0.5);
@@ -433,7 +434,7 @@ body {{
 
         /* Light mode hover - even stronger shadow */
         :root .stat-card:hover {{
-            box-shadow: 
+            box-shadow:
                 0 24px 60px rgba(0, 0, 0, 0.22),
                 0 12px 28px rgba(0, 212, 255, 0.4),
                 inset 0 2px 12px rgba(255, 255, 255, 0.6);
@@ -526,7 +527,7 @@ body {{
 
         /* Light mode only - add even stronger shadow */
         :root .impact-cta {{
-            box-shadow: 
+            box-shadow:
                 0 24px 60px rgba(0, 0, 0, 0.2),
                 0 12px 28px rgba(0, 191, 255, 0.3),
                 inset 0 2px 10px rgba(255, 255, 255, 0.5);
@@ -567,7 +568,7 @@ body {{
 
         /* Light mode hover - stronger effect */
         :root .impact-cta:hover {{
-            box-shadow: 
+            box-shadow:
                 0 32px 80px rgba(0, 0, 0, 0.25),
                 0 16px 36px rgba(0, 212, 255, 0.45),
                 inset 0 2px 12px rgba(255, 255, 255, 0.6);
@@ -675,7 +676,7 @@ body {{
 
         /* Light mode navbar - extra shadow depth */
         :root .navbar {{
-            box-shadow: 
+            box-shadow:
                 0 8px 32px rgba(0, 0, 0, 0.12),
                 0 4px 12px rgba(0, 191, 255, 0.2);
         }}
@@ -692,7 +693,7 @@ body {{
 
         /* Light mode scrolled navbar - extra depth */
         :root .navbar.scrolled {{
-            box-shadow: 
+            box-shadow:
                 0 12px 40px rgba(0, 0, 0, 0.15),
                 0 6px 18px rgba(0, 191, 255, 0.25);
         }}
@@ -772,7 +773,7 @@ body {{
             }}
         }}
 
-        
+
         .nav-menu {{
             display: flex;
             list-style: none;
@@ -839,7 +840,7 @@ body {{
 
         /* Light mode theme toggle - extra shadow */
         :root .theme-toggle {{
-            box-shadow: 
+            box-shadow:
                 0 8px 24px rgba(0, 0, 0, 0.15),
                 0 4px 12px rgba(0, 191, 255, 0.3);
         }}
@@ -869,7 +870,7 @@ body {{
 
         /* Light mode theme toggle hover */
         :root .theme-toggle:hover {{
-            box-shadow: 
+            box-shadow:
                 0 12px 32px rgba(0, 0, 0, 0.2),
                 0 6px 16px rgba(0, 212, 255, 0.45);
         }}
@@ -1044,7 +1045,7 @@ body {{
 
         /* Light mode CTA - extra depth */
         :root .cta-button {{
-            box-shadow: 
+            box-shadow:
                 0 12px 32px rgba(0, 0, 0, 0.2),
                 0 6px 16px rgba(59, 130, 246, 0.35);
         }}
@@ -1077,7 +1078,7 @@ body {{
 
         /* Light mode CTA hover - even stronger */
         :root .cta-button:hover {{
-            box-shadow: 
+            box-shadow:
                 0 20px 48px rgba(0, 0, 0, 0.25),
                 0 10px 24px rgba(99, 102, 241, 0.45);
         }}
@@ -1160,7 +1161,7 @@ body {{
         /* Light mode section text - subtle card effect */
         :root .section-text {{
             background: rgba(255, 255, 255, 0.6);
-            box-shadow: 
+            box-shadow:
                 0 4px 16px rgba(0, 0, 0, 0.06),
                 inset 0 1px 4px rgba(255, 255, 255, 0.8);
         }}
@@ -1179,9 +1180,9 @@ body {{
             top: 0;
             bottom: 0;
             width: 6px;
-            background: linear-gradient(180deg, 
-                #6366f1 0%, 
-                #3b82f6 33%, 
+            background: linear-gradient(180deg,
+                #6366f1 0%,
+                #3b82f6 33%,
                 #06b6d4 66%,
                 #a855f7 100%);
             border-radius: 3px;
@@ -1191,9 +1192,9 @@ body {{
 
         /* Dark mode section text line - keep original */
         [data-theme="dark"] .section-text::before {{
-            background: linear-gradient(180deg, 
-                var(--primary-color) 0%, 
-                var(--accent-color) 50%, 
+            background: linear-gradient(180deg,
+                var(--primary-color) 0%,
+                var(--accent-color) 50%,
                 var(--secondary-color) 100%);
             box-shadow: 0 0 20px rgba(109, 154, 255, 0.5);
         }}
@@ -1235,14 +1236,6 @@ body {{
             padding-bottom: 1rem;
         }}
 
-        /* Dark mode section text h2 - keep original */
-        [data-theme="dark"] .section-text h2 {{
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }}
-
         .section-text h2::after {{
             content: '';
             position: absolute;
@@ -1269,6 +1262,71 @@ body {{
             }}
         }}
 
+        /* Custom underline sizes for specific sections */
+        
+        /* Early Life - medium */
+        .section-text h2.early-life-header::after {{
+            animation: expandEarlyLife 2s ease-in-out infinite;
+        }}
+        @keyframes expandEarlyLife {{
+            0%, 100% {{ width: 150px; }}
+            50% {{ width: 225px; }}
+        }}
+
+        /* Education - medium */
+        .section-text h2.education-header::after {{
+            animation: expandEducation 2s ease-in-out infinite;
+        }}
+        @keyframes expandEducation {{
+            0%, 100% {{ width: 150px; }}
+            50% {{ width: 250px; }}
+        }}
+
+        /* Family - short */
+        .section-text h2.family-header::after {{
+            animation: expandFamily 2s ease-in-out infinite;
+        }}
+        @keyframes expandFamily {{
+            0%, 100% {{ width: 100px; }}
+            50% {{ width: 160px; }}
+        }}
+
+        /* Career - short */
+        .section-text h2.career-header::after {{
+            animation: expandCareer 2s ease-in-out infinite;
+        }}
+        @keyframes expandCareer {{
+            0%, 100% {{ width: 100px; }}
+            50% {{ width: 160px; }}
+        }}
+
+        /* Awards - short */
+        .section-text h2.awards-header::after {{
+            animation: expandAwards 2s ease-in-out infinite;
+        }}
+        @keyframes expandAwards {{
+            0%, 100% {{ width: 300px; }}
+            50% {{ width: 425px; }}
+        }}
+
+        /* Impact - short */
+        .section-text h2.impact-header::after {{
+            animation: expandImpact 2s ease-in-out infinite;
+        }}
+        @keyframes expandImpact {{
+            0%, 100% {{ width: 230px; }}
+            50% {{ width: 340px; }}
+        }}
+
+        /* Philanthropy - longest */
+        .section-text h2.philanthropy-header::after {{
+            animation: expandPhilanthropy 2s ease-in-out infinite;
+        }}
+        @keyframes expandPhilanthropy {{
+            0%, 100% {{ width: 400px; }}
+            50% {{ width: 525px; }}
+        }}
+
         /* ALL SECTION IMAGES - With shining effect */
         .section-image {{
             border-radius: var(--border-radius);
@@ -1281,7 +1339,7 @@ body {{
 
         /* Light mode section images - extra depth */
         :root .section-image {{
-            box-shadow: 
+            box-shadow:
                 0 20px 52px rgba(0, 0, 0, 0.18),
                 0 10px 24px rgba(0, 191, 255, 0.3),
                 inset 0 1px 4px rgba(255, 255, 255, 0.4);
@@ -1340,7 +1398,7 @@ body {{
 
         /* Light mode section image hover - even stronger */
         :root .section-image:hover {{
-            box-shadow: 
+            box-shadow:
                 0 28px 68px rgba(0, 0, 0, 0.24),
                 0 14px 32px rgba(0, 212, 255, 0.45),
                 inset 0 1px 6px rgba(255, 255, 255, 0.5);
@@ -1383,7 +1441,7 @@ body {{
 
         /* Light mode awards images - extra depth */
         :root .awards-image-container {{
-            box-shadow: 
+            box-shadow:
                 0 20px 52px rgba(0, 0, 0, 0.18),
                 0 10px 24px rgba(0, 191, 255, 0.3),
                 inset 0 1px 4px rgba(255, 255, 255, 0.4);
@@ -1431,7 +1489,7 @@ body {{
 
         /* Light mode awards hover - stronger */
         :root .awards-image-container:hover {{
-            box-shadow: 
+            box-shadow:
                 0 28px 68px rgba(0, 0, 0, 0.24),
                 0 14px 32px rgba(0, 212, 255, 0.45),
                 inset 0 1px 6px rgba(255, 255, 255, 0.5);
@@ -1444,7 +1502,7 @@ body {{
 
         /* Light mode second award hover */
         :root .awards-image-container:nth-child(2):hover {{
-            box-shadow: 
+            box-shadow:
                 0 28px 68px rgba(0, 0, 0, 0.22),
                 0 14px 32px rgba(30, 144, 255, 0.4),
                 inset 0 1px 6px rgba(255, 255, 255, 0.5);
@@ -1480,7 +1538,7 @@ body {{
             position: relative;
             overflow: hidden;
         }}
-        
+
 
         .intro-section .intro-content {{
             text-align: left;
@@ -1488,7 +1546,7 @@ body {{
 
         /* Light mode intro section - extra depth */
         :root .intro-section {{
-            box-shadow: 
+            box-shadow:
                 0 24px 60px rgba(0, 0, 0, 0.2),
                 0 12px 28px rgba(0, 191, 255, 0.3),
                 inset 0 2px 10px rgba(255, 255, 255, 0.5);
@@ -1663,6 +1721,31 @@ body {{
             z-index: 1;
         }}
 
+        /* Presenter Credit Styling */
+.presenter-credit {{
+display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+        margin-top: 2rem;              
+    padding: 0.6rem 1.2rem;        /* smaller box */
+    background: rgba(255, 255, 255, 0.15);
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    font-size: 1.05rem;            /* slightly smaller text */
+    opacity: 0.95;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    display: inline-block;
+}}
+
+    .presenter-credit:hover {{
+            background: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);   /* subtler hover lift */
+}}
+
         /* Responsive Design */
         @media (max-width: 1200px) {{
             .hero h1 {{ font-size: 3.2rem; }}
@@ -1713,7 +1796,7 @@ body {{
             .hero h1 {{ font-size: 2.5rem; }}
             .hero h2 {{ font-size: 1.8rem; }}
             .hero-quote {{ font-size: 1.3rem !important; white-space: normal; }}
-            
+
             .section-text::before {{
                 display: none;
             }}
@@ -2003,6 +2086,7 @@ def get_home_content():
            <h2>{HERO_TITLE}</h2>
            <p class="hero-quote">{HERO_QUOTE}</p>
            <a href="#intro-section" class="cta-button">Explore his Impact</a>
+           <p class="presenter-credit">Presented by 00224137, 00229168, 001663036, and 00228650.</p>
        </div>
    </section>
 
@@ -2060,7 +2144,7 @@ def get_early_life_content():
    <div class="content-section">
        <div class="section-content">
            <div class="section-text" data-aos="fade-right">
-               <h2>{EARLY_LIFE.get('title', 'Early Life')}</h2>
+               <h2 class="early-life-header">{EARLY_LIFE.get('title', 'Early Life')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
@@ -2083,11 +2167,11 @@ def get_education_content():
    <div class="content-section">
        <div class="section-content reverse">
            <div class="section-image" data-aos="fade-right" data-aos-delay="0">
-               <img src="{EDUCATION.get('image', '/static/images/education.jpg')}" 
+               <img src="{EDUCATION.get('image', '/static/images/education.jpg')}"
                     alt="{EDUCATION.get('title', 'Education')}">
            </div>
            <div class="section-text" data-aos="fade-left" data-aos-delay="200">
-               <h2>{EDUCATION.get('title', 'Education')}</h2>
+               <h2 class="education-header">{EDUCATION.get('title', 'Education')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
@@ -2106,13 +2190,13 @@ def get_family_content():
    <div class="content-section">
        <div class="section-content">
            <div class="section-text" data-aos="fade-right">
-               <h2>{FAMILY.get('title', 'Family')}</h2>
+               <h2 class="family-header">{FAMILY.get('title', 'Family')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
            </div>
            <div class="section-image" data-aos="fade-left">
-               <img src="{FAMILY.get('image', '/static/images/family.jpg')}" 
+               <img src="{FAMILY.get('image', '/static/images/family.jpg')}"
                     alt="{FAMILY.get('title', 'Family')}">
            </div>
        </div>
@@ -2130,11 +2214,11 @@ def get_career_content():
    <div class="content-section">
        <div class="section-content reverse">
            <div class="section-image" data-aos="fade-right" data-aos-delay="0">
-               <img src="{CAREER.get('image', '/static/images/career.jpg')}" 
+               <img src="{CAREER.get('image', '/static/images/career.jpg')}"
                     alt="{CAREER.get('title', 'Career')}">
            </div>
            <div class="section-text" data-aos="fade-left" data-aos-delay="200">
-               <h2>{CAREER.get('title', 'Career')}</h2>
+               <h2 class="career-header">{CAREER.get('title', 'Career')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
@@ -2154,7 +2238,7 @@ def get_awards_content():
     if additional_image:
         additional_image_html = f'''
            <div class="awards-image-container" data-aos="fade-left" data-aos-delay="100">
-               <img src="{additional_image}" 
+               <img src="{additional_image}"
                     alt="{AWARDS.get('title', 'Awards')} - Additional">
            </div>
         '''
@@ -2164,13 +2248,13 @@ def get_awards_content():
        <div class="section-content reverse">
            <div class="awards-images-wrapper">
                <div class="awards-image-container" data-aos="fade-left" data-aos-delay="0">
-                   <img src="{AWARDS.get('image', '/static/images/awards.jpg')}" 
+                   <img src="{AWARDS.get('image', '/static/images/awards.jpg')}"
                         alt="{AWARDS.get('title', 'Awards')}">
                </div>
                {additional_image_html}
            </div>
            <div class="section-text" data-aos="fade-right" data-aos-delay="200">
-               <h2>{AWARDS.get('title', 'Awards')}</h2>
+               <h2 class="awards-header">{AWARDS.get('title', 'Awards')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
@@ -2189,13 +2273,13 @@ def get_contributions_content():
    <div class="content-section">
        <div class="section-content">
            <div class="section-text" data-aos="fade-right">
-               <h2>{CONTRIBUTIONS.get('title', 'Impact')}</h2>
+               <h2 class="impact-header">{CONTRIBUTIONS.get('title', 'Impact')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
            </div>
            <div class="section-image" data-aos="fade-left">
-               <img src="{CONTRIBUTIONS.get('image', '/static/images/contributions.jpg')}" 
+               <img src="{CONTRIBUTIONS.get('image', '/static/images/contributions.jpg')}"
                     alt="{CONTRIBUTIONS.get('title', 'Impact')}">
            </div>
        </div>
@@ -2218,7 +2302,7 @@ def get_community_content():
                </div>
            </div>
            <div class="section-image" data-aos="fade-left">
-               <img src="{COMMUNITY.get('image', '/static/images/community.jpg')}" 
+               <img src="{COMMUNITY.get('image', '/static/images/community.jpg')}"
                     alt="{COMMUNITY.get('title', 'Community')}">
            </div>
        </div>
@@ -2235,13 +2319,13 @@ def get_philanthropy_content():
    <div class="content-section">
        <div class="section-content reverse">
            <div class="section-text" data-aos="fade-left">
-               <h2>{PHILANTHROPY.get('title', 'Philanthropy')}</h2>
+               <h2 class="philanthropy-header">{PHILANTHROPY.get('title', 'Philanthropy')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
            </div>
            <div class="section-image" data-aos="fade-right">
-               <img src="{PHILANTHROPY.get('image', '/static/images/philanthropy.jpg')}" 
+               <img src="{PHILANTHROPY.get('image', '/static/images/philanthropy.jpg')}"
                     alt="{PHILANTHROPY.get('title', 'Philanthropy')}">
            </div>
        </div>

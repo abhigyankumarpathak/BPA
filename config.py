@@ -37,9 +37,7 @@ SOCIAL_LINKS = {
 EARLY_LIFE = {
     "title": "Early Life",
     "content": """
-    Matthew S. Meyer was born on September 29, 1971, and grew up in Wilmington, Delaware.
-
-He attended public schools in the Brandywine School District before graduating from Wilmington Friends School.
+    Matthew S. Meyer was born on September 29, 1971, and grew up in Wilmington, Delaware. He attended public schools in the Brandywine School District before graduating from Wilmington Friends School.
 
 Raised in a family that valued service and civic engagement, Meyer was influenced by his parents’ commitment to public service. His father worked as an attorney in Wilmington, and his mother was accepted into one of the early Peace Corps classes. Although she did not serve, her interest in global service helped shape Meyer’s worldview.
 
@@ -114,11 +112,11 @@ AWARDS = {
     "content": """
 Matt Meyer has been widely recognized for his leadership, dedication to public service, and impactful contributions to the Delaware community. His work in sustainable development, housing, economic initiatives, and civic engagement has earned him both national and regional recognition. Some of his notable awards and honors include:
 
-• The Sam Beard Jefferson Award for the Greatest Public Service by an Individual 35 Years and Under (2003)  
+• <b>The Sam Beard Jefferson Award</b> for the Greatest Public Service by an Individual 35 Years and Under (2003)  
 
-• Distinguished Leadership Award from the American Planning Association Delaware Chapter (APADE) for sustainable community planning and smart growth  
+• <b>Distinguished Leadership Award</b> from the American Planning Association Delaware Chapter (APADE) for sustainable community planning and smart growth  
 
-• Mid‑Atlantic Emmy Award for the documentary 'Restless Ground: The Untold Story of Mt. Olive' in the Diversity/Equity/Inclusion Long‑Form category  
+• <b>Mid‑Atlantic Emmy Award</b> for the documentary 'Restless Ground: The Untold Story of Mt. Olive' in the Diversity/Equity/Inclusion Long‑Form category  
 
 """,
     "image": "https://www.delawareonline.com/gcdn/authoring/authoring-images/2025/01/21/PWIL/77851407007-screenshot-20250121-at-124446-pm.png?crop=2493,1869,x0,y0",
