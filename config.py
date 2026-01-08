@@ -87,7 +87,7 @@ CAREER = {
       Focused on housing, economic recovery, and modernization of county services.
 
     • 2025—Present — 76th Governor of Delaware  
-      Sworn in on January 21, 2025; continues to prioritize economic development, community programs, and government efficiency.
+      Sworn in on January 21, 2025; he continues to prioritize economic development, community programs, and government efficiency.
     """,
     "image": "https://mattmeyer.org/wp-content/uploads/2024/07/IMG_8326-scaled.jpg"
 }
