@@ -38,12 +38,12 @@ EARLY_LIFE = {
     "title": "Early Life",
     "content": """
     Matthew S. Meyer was born on September 29, 1971, and grew up in Wilmington, Delaware.
-    
-    He attended public schools in the Brandywine School District and graduated from Wilmington Friends School.
 
-    Raised in a family that valued service and civic engagement, his father worked as an attorney in Wilmington, and his mother was accepted into one of the early Peace Corps classes. Although she did not serve, her interest in global service influenced Meyer's worldview.
+He attended public schools in the Brandywine School District before graduating from Wilmington Friends School.
 
-    After college, Meyer lived in Nairobi, Kenya, where he learned Swahili and co-founded Ecosandals, a small business producing recycled footwear sold internationally. He later served with the U.S. government in Iraq, gaining experience in international development and community rebuilding.
+Raised in a family that valued service and civic engagement, Meyer was influenced by his parents’ commitment to public service. His father worked as an attorney in Wilmington, and his mother was accepted into one of the early Peace Corps classes. Although she did not serve, her interest in global service helped shape Meyer’s worldview.
+
+After college, Meyer lived in Nairobi, Kenya, where he learned Swahili and co-founded Ecosandals, a small business that produced recycled footwear sold internationally. He later served with the U.S. government in Iraq, gaining experience in international development and community rebuilding.
     """,
     "image": "https://assets.delawarebusinesstimes.com/wp-content/uploads/2024/03/CSUITE-Matt-Meyer-scaled-1.jpg"
 }
