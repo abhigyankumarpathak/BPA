@@ -97,7 +97,7 @@ CAREER = {
 CONTRIBUTIONS = {
     "title": "Significant Contributions",
     "content": """
-    • Developed new housing solutions, including converting a hotel into a shelter.  
+    • Developed innovative housing solutions, including converting a hotel into a shelter.  
     • Led economic recovery initiatives to support workers and businesses.  
     • Strengthened partnerships with the Delaware Prosperity Partnership to encourage innovation and business growth.  
     • Supported youth programs and community-based education efforts.
@@ -114,7 +114,7 @@ AWARDS = {
     "content": """
 Matt Meyer has been widely recognized for his leadership, dedication to public service, and impactful contributions to the Delaware community. His work in sustainable development, housing, economic initiatives, and civic engagement has earned him both national and regional recognition. Some of his notable awards and honors include:
 
-• Sam Beard Jefferson Award for the Greatest Public Service by an Individual 35 Years and Under (2003)  
+• The Sam Beard Jefferson Award for the Greatest Public Service by an Individual 35 Years and Under (2003)  
 
 • Distinguished Leadership Award from the American Planning Association Delaware Chapter (APADE) for sustainable community planning and smart growth  
 
