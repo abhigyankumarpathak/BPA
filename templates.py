@@ -1481,6 +1481,10 @@ body {{
             overflow: hidden;
         }}
 
+        .intro-section .intro-content {{
+            text-align: left;
+        }}
+
         /* Light mode intro section - extra depth */
         :root .intro-section {{
             box-shadow: 
