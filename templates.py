@@ -1480,6 +1480,7 @@ body {{
             position: relative;
             overflow: hidden;
         }}
+        
 
         .intro-section .intro-content {{
             text-align: left;
