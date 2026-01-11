@@ -1596,6 +1596,7 @@ body {{
             z-index: 1;
         }}
 
+
         /* Footer */
         .footer {{
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -1639,6 +1640,7 @@ body {{
             font-weight: 700;
             display: flex;
             align-items: center;
+            margin-left: 2rem;
             gap: 0.8rem;
         }}
 
@@ -1663,12 +1665,14 @@ body {{
         }}
 
         .footer-links {{
-            list-style: none;
-        }}
+    list-style: none;
+    padding-left: 0rem;
+}}
 
         .footer-links li {{
-            margin-bottom: 0.8rem;
-        }}
+    margin-bottom: 0.8rem;
+    padding-left: 7rem; /* moves text right */
+}}
 
         .footer-links a {{
             color: white;
@@ -2104,7 +2108,7 @@ def get_home_content():
        <div class="stats-grid">
            <div class="stat-card" data-aos="fade-up" data-aos-delay="0">
                <i class="fas fa-users"></i>
-               <div class="stat-number" data-target="1500">0</div>
+               <div class="stat-number" data-target="50000">0</div>
                <div class="stat-label">Lives Impacted</div>
            </div>
            <div class="stat-card" data-aos="fade-up" data-aos-delay="100">

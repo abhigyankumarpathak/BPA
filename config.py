@@ -24,7 +24,7 @@ HOME_INTRO = {
 # KEEP RESEARCHING AND DOUBLE CHECK
 
 # Contact Information (for footer)
-CONTACT_EMAIL = "contact@example.com"
+CONTACT_EMAIL = "meyer.impact@gmail.com"
 CONTACT_PHONE = "(302) 449-3490"
 SOCIAL_LINKS = {
     "linkedin": "#",
