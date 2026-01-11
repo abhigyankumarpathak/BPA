@@ -1926,19 +1926,19 @@ display: block;
           </p>
 
           <div class="social-links">
-            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+            <a href="https://www.facebook.com/Meyer4DE" target="_blank" rel="noopener" aria-label="Facebook">
               <i class="fab fa-facebook-f"></i>
             </a>
 
-            <a href="https://x.com" target="_blank" rel="noopener" aria-label="X">
+            <a href="https://x.com/MattMeyerDE" target="_blank" rel="noopener" aria-label="X">
               <i class="fab fa-x-twitter"></i>
             </a>
 
-            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/matthewmeyer/" target="_blank" rel="noopener" aria-label="LinkedIn">
               <i class="fab fa-linkedin-in"></i>
             </a>
 
-            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <a href="https://www.instagram.com/mattmeyerde" target="_blank" rel="noopener" aria-label="Instagram">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
