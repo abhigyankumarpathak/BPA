@@ -791,7 +791,7 @@ body {{
             border-radius: 10px;
             transition: var(--transition);
             position: relative;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }}
 
         .nav-link:hover {{
@@ -1316,6 +1316,14 @@ body {{
         @keyframes expandImpact {{
             0%, 100% {{ width: 230px; }}
             50% {{ width: 340px; }}
+        }}
+        /* Community - short */
+        .section-text h2.community-header::after {{
+            animation: expandCommunity 2s ease-in-out infinite;
+        }}
+        @keyframes expandCommunity {{
+            0%, 100% {{ width: 190px; }}
+            50% {{ width: 310px; }}
         }}
 
         /* Philanthropy - longest */
@@ -1874,6 +1882,7 @@ display: block;
                 <li><a href="/family" class="nav-link {'active' if current_page == 'family' else ''}">Family</a></li>
                 <li><a href="/career" class="nav-link {'active' if current_page == 'career' else ''}">Career</a></li>
                 <li><a href="/awards" class="nav-link {'active' if current_page == 'awards' else ''}">Awards</a></li>
+                <li><a href="/community" class="nav-link {'active' if current_page == 'community' else ''}">Community</a></li>
                 <li><a href="/contributions" class="nav-link {'active' if current_page == 'contributions' else ''}">Impact</a></li>
                 <li><a href="/philanthropy" class="nav-link {'active' if current_page == 'philanthropy' else ''}">Philanthropy</a></li>
             </ul>
@@ -2300,7 +2309,7 @@ def get_community_content():
    <div class="content-section">
        <div class="section-content">
            <div class="section-text" data-aos="fade-right">
-               <h2>{COMMUNITY.get('title', 'Community')}</h2>
+               <h2 class="community-header">{COMMUNITY.get('title', 'Community')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
