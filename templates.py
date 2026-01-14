@@ -709,13 +709,14 @@ body {{
 
         .nav-logo {{
             font-family: 'Montserrat', sans-serif;
-            font-size: 1.6rem;
+            font-size: 1.7rem;
             font-weight: 800;
             color: var(--primary-color);
             text-decoration: none;
             display: flex;
             align-items: center;
             gap: 0.8rem;
+            margin-left: -2rem;
         }}
 
         .nav-logo i {{
@@ -787,11 +788,11 @@ body {{
             color: var(--text-dark);
             text-decoration: none;
             font-weight: 600;
-            padding: 0.8rem 1.2rem;
+            padding: 0.6rem 1rem;
             border-radius: 10px;
             transition: var(--transition);
             position: relative;
-            font-size: 1.2rem;
+            font-size: 1.38rem;
         }}
 
         .nav-link:hover {{
@@ -838,11 +839,17 @@ body {{
             overflow: hidden;
         }}
 
-        /* Light mode theme toggle - extra shadow */
+        /* Light mode theme toggle - extra shadow and positioning */
         :root .theme-toggle {{
             box-shadow:
                 0 8px 24px rgba(0, 0, 0, 0.15),
                 0 4px 12px rgba(0, 191, 255, 0.3);
+            margin-right: auto;
+        }}
+
+        /* Dark mode theme toggle positioning */
+        [data-theme="dark"] .theme-toggle {{
+            margin-right: -1rem;
         }}
 
         .theme-toggle::before {{
@@ -1234,6 +1241,27 @@ body {{
             line-height: 1.2;
             position: relative;
             padding-bottom: 1rem;
+        }}
+
+        /* Community-specific styling */
+        .community-section {{
+            padding: 88px 2rem 40px;
+        }}
+
+        .community-text h2 {{
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }}
+
+        .community-text p,
+        .community-text li {{
+            font-size: 1.4rem !important;
+        }}
+
+        .community-image {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }}
 
         .section-text h2::after {{
@@ -2306,15 +2334,15 @@ def get_community_content():
     formatted_content = format_content_with_lists(content_text)
 
     return f"""
-   <div class="content-section">
-       <div class="section-content">
-           <div class="section-text" data-aos="fade-right">
+   <div class="content-section community-section">
+       <div class="section-content community-content">
+           <div class="section-text community-text" data-aos="fade-right">
                <h2 class="community-header">{COMMUNITY.get('title', 'Community')}</h2>
                <div class="content-text">
                {formatted_content}
                </div>
            </div>
-           <div class="section-image" data-aos="fade-left">
+           <div class="section-image community-image" data-aos="fade-left">
                <img src="{COMMUNITY.get('image', '/static/images/community.jpg')}"
                     alt="{COMMUNITY.get('title', 'Community')}">
            </div>
