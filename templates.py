@@ -706,18 +706,18 @@ body {{
             justify-content: space-between;
             align-items: center;
         }}
-        
+
 
         .nav-logo {{
             font-family: 'Montserrat', sans-serif;
-            font-size: 1.7rem;
+            font-size: 1.9rem;
             font-weight: 800;
             color: var(--primary-color);
             text-decoration: none;
             display: flex;
             align-items: center;
             gap: 0.8rem;
-            margin-left: -2rem;
+            margin-left: -1.7rem;
         }}
 
         .nav-logo i {{
@@ -793,7 +793,7 @@ body {{
             border-radius: 10px;
             transition: var(--transition);
             position: relative;
-            font-size: 1.38rem;
+            font-size: 1.36rem;
         }}
 
         .nav-link:hover {{
