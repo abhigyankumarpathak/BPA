@@ -706,6 +706,7 @@ body {{
             justify-content: space-between;
             align-items: center;
         }}
+        
 
         .nav-logo {{
             font-family: 'Montserrat', sans-serif;
