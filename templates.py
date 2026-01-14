@@ -793,7 +793,7 @@ body {{
             border-radius: 10px;
             transition: var(--transition);
             position: relative;
-            font-size: 1.36rem;
+            font-size: 1.38rem;
         }}
 
         .nav-link:hover {{
